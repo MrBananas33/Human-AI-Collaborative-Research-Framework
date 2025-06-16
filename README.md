@@ -1,4 +1,4 @@
-![Banner](resouces/graph_human.png)
+![Banner](resources/graph_human.png)
 # The Orchestrator-Agent Framework (OAF)
 
 
