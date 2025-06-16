@@ -63,15 +63,3 @@ Si encuentra útil este trabajo, por favor considere citar nuestro paper:
 
 [Tu Nombre], [Nombre de tu Profesor], et al. (Año). *The Orchestrator-Agent Framework (OAF): A Systematic Methodology for Human-AI Collaborative Research in Data Science*. [Nombre de la Revista o Repositorio, ej. arXiv].
 
----
-```
-
-### **Plan de Acción Inmediato:**
-
-1.  **Crea el Repositorio:** Ve a GitHub, crea un nuevo repositorio. Te recomiendo el nombre **`The-Orchestrator-Agent-Framework`**.
-2.  **Crea el `README.md`:** Copia y pega el texto de arriba en un nuevo archivo `README.md` en el repositorio. GitHub renderizará el diagrama de Mermaid automáticamente, lo cual se verá muy profesional.
-3.  **Sube los Archivos:** Crea las carpetas (`/Paper`, `/Prompts`) y sube el borrador de nuestro paper y el archivo con el Prompt V8.
-
-Una vez hecho esto, tendrás una base sólida y profesional para tu proyecto.
-
-**Ahora sí, ¿quieres que redactemos el Abstract para completar el `README.md` y el paper?**
