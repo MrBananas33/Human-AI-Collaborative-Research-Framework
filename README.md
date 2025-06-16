@@ -44,16 +44,16 @@ graph TD
         
         B --> C[1. Diseñar Misión];
         
-        subgraph "Ciclo de Iteración (UIC)"
-            C -- "Seleccionar Arquetipo (ej. #1)" --> D[Prompt Específico para DR];
+        subgraph "Ciclo de Iteración UIC"
+            C -- "Seleccionar Arquetipo ej 1" --> D[Prompt Específico para DR];
             D --> E[2. Agente DR Ejecuta Misión];
-            E -- "Informe con Fuentes & Metadatos" --> F[3. Actualizar DB de Metadatos];
+            E -- "Informe con Fuentes y Metadatos" --> F[3. Actualizar DB de Metadatos];
             E -- "Informe de Síntesis" --> G[4. Orquestador: Evaluar y Diagnosticar];
             F -- "Contexto de Activos de Datos" --> G;
             G -- "Diagnóstico: Brechas, Calidad, ROI" --> H[5. Director Humano: Decisión Estratégica];
-            H -- "Avanzar a Siguiente Fase" --> I[Fin del Ciclo / Nueva Fase (ej. EDA)];
-            H -- "Refinar Misión" --> C;
-            H -- "Pivotar (Anti-Patrón Detectado)" --> C;
+            H -- "Avanzar" --> I[Fin del Ciclo o Nueva Fase];
+            H -- "Refinar" --> C;
+            H -- "Pivotar por Anti-Patrón" --> C;
         end
     end
 
