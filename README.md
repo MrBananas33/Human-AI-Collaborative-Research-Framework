@@ -84,5 +84,5 @@ El OAF está diseñado explícitamente para mitigar los "anti-patrones" comunes 
 
 Si encuentra útil este trabajo, por favor considere citar nuestro paper:
 
-[Tu Nombre], [Nombre de tu Profesor], et al. (Año). *The Orchestrator-Agent Framework (OAF): A Systematic Methodology for Human-AI Collaborative Research in Data Science*. [Nombre de la Revista o Repositorio, ej. arXiv].
+[Tu Nombre], [Nombre adicional], et al. (Año). *The Orchestrator-Agent Framework (OAF): A Systematic Methodology for Human-AI Collaborative Research in Data Science*. [Nombre de la Revista o Repositorio, ej. arXiv].
 
