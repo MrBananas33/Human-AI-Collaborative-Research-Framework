@@ -1,6 +1,6 @@
 # The Orchestrator-Agent Framework (OAF)
 
-![OAF Cover Image](URL_DE_TU_IMAGEN_AQUI)
+![OAF Cover Image](resources/graph_human.png)
 
 ### Una Metodología Sistemática para la Investigación Colaborativa Humano-IA en la Era Agéntica
 
