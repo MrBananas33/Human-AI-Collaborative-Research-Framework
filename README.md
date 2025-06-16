@@ -39,28 +39,32 @@ Este diagrama ilustra cómo el OAF transforma la investigación en un ciclo iter
 
 ```mermaid
 graph TD
-    subgraph "Proyecto: Investigación Estratégica"
-        A[Director Humano define Objetivo] --> B{Orquestador: Activar Prompt de Sistema};
+    subgraph "Proyecto OAF: Investigación Estratégica"
+        A[Director Humano Define Objetivo] --> B[Orquestador: Activar Prompt de Sistema];
         
-        subgraph "Ciclo de Iteración Universal (UIC)"
-            B --> C{1. Diseñar Misión};
-            C -- "Seleccionar Arquetipo (ej. #1 Cosechador de Datos)" --> D[Prompt DR Específico];
-            D --> E[2. Ejecutar Misión por Agente DR];
-            E -- "Informe con Fuentes, Datasets, etc." --> F(3. Poblar/Actualizar DB de Metadatos);
-            F -- "Contexto Actualizado" --> G{4. Orquestador: Evaluar y Diagnosticar};
-            E --> G;
-            G -- "Diagnóstico: Brechas, Calidad, ROI" --> H{5. Director Humano: Decisión Estratégica};
-            H -- "Avanzar" --> I[Siguiente Fase del Proyecto (ej. EDA)];
-            H -- "Refinar" --> C;
+        B --> C[1. Diseñar Misión];
+        
+        subgraph "Ciclo de Iteración (UIC)"
+            C -- "Seleccionar Arquetipo (ej. #1)" --> D[Prompt Específico para DR];
+            D --> E[2. Agente DR Ejecuta Misión];
+            E -- "Informe con Fuentes & Metadatos" --> F[3. Actualizar DB de Metadatos];
+            E -- "Informe de Síntesis" --> G[4. Orquestador: Evaluar y Diagnosticar];
+            F -- "Contexto de Activos de Datos" --> G;
+            G -- "Diagnóstico: Brechas, Calidad, ROI" --> H[5. Director Humano: Decisión Estratégica];
+            H -- "Avanzar a Siguiente Fase" --> I[Fin del Ciclo / Nueva Fase (ej. EDA)];
+            H -- "Refinar Misión" --> C;
             H -- "Pivotar (Anti-Patrón Detectado)" --> C;
         end
     end
 
+    %% Estilos de los nodos
+    style A fill:#000,stroke:#fff,stroke-width:2px,color:#fff
     style B fill:#8E44AD,stroke:#fff,stroke-width:2px,color:#fff
     style G fill:#8E44AD,stroke:#fff,stroke-width:2px,color:#fff
     style E fill:#2980B9,stroke:#fff,stroke-width:2px,color:#fff
     style F fill:#16A085,stroke:#fff,stroke-width:2px,color:#fff
     style H fill:#D35400,stroke:#fff,stroke-width:2px,color:#fff
+    style I fill:#27AE60,stroke:#fff,stroke-width:2px,color:#fff
 ```
 ## Anti-Patrones Abordados por el OAF
 
