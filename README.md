@@ -65,6 +65,7 @@ graph TD
     style F fill:#16A085,stroke:#fff,stroke-width:2px,color:#fff
     style H fill:#D35400,stroke:#fff,stroke-width:2px,color:#fff
     style I fill:#27AE60,stroke:#fff,stroke-width:2px,color:#fff
+```
 
 ## Anti-Patrones Abordados por el OAF
 
