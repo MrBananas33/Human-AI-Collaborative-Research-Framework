@@ -1,47 +1,66 @@
-# Human-AI-Collaborative-Research-Framework
-### A Systematic Methodology for Human-AI Collaborative Research in Data Science
+# The Orchestrator-Agent Framework (OAF)
+
+![OAF Cover Image](URL_DE_TU_IMAGEN_AQUI)
+
+### Una Metodología Sistemática para la Investigación Colaborativa Humano-IA en la Era Agéntica
 
 ---
 
 ## Abstract
 
-El advenimiento de los Large Language Models (LLMs) ha creado nuevas oportunidades para acelerar la investigación en ciencia de datos, pero su aplicación a menudo sigue siendo ad-hoc e inestructurada. Esto limita la reproducibilidad y la eficiencia. Este paper introduce el **Orchestrator-Agent Framework (OAF)**, una metodología sistemática que estructura la colaboración entre un investigador humano y sistemas de IA. El framework se basa en una arquitectura dual: (1) un **Orquestador de Razonamiento**, un LLM con una vasta ventana de contexto que actúa como estratega y sintetizador central; y (2) **Agentes de Deep Research (DR)**, LLMs agenticos especializados en la recolección y síntesis de conocimiento externo. Describimos el núcleo del framework: el **Ciclo de Iteración Universal (UIC)**, un proceso gobernado por el Orquestador para diseñar, ejecutar, evaluar y refinar misiones de investigación en todas las fases de un proyecto de ciencia de datos. Se presentan seis arquetipos de misiones estratégicas y se discuten las implicaciones del OAF para la eficiencia, la innovación y la transparencia en la investigación.
+*(El Abstract que redactemos irá aquí. Por ahora, un placeholder)*
 
-## Contenido del Repositorio
+Este paper introduce el **Orchestrator-Agent Framework (OAF)**, una metodología sistemática que estructura la colaboración entre un investigador humano y sistemas de IA especializados para maximizar la eficiencia, profundidad y reproducibilidad de la investigación en ciencia de datos. El OAF se basa en una arquitectura dual y funcionalmente distinta, inspirada en la teoría del proceso dual de la cognición... *(resumen completo)*
 
-- **/Paper**: Contiene el manuscrito completo del paper de investigación en formato PDF y/o LaTeX.
-- **/Presentation**: Material de presentación que resume los hallazgos clave.
-- **/Prompts**: Contiene los prompts de sistema y de misión, incluyendo el Prompt Maestro del Orquestador V8, como artefactos replicables.
+## El Problema: El Caos Agéntico y los Anti-Patrones de Investigación
 
-## El Framework OAF de un Vistazo
+El uso no estructurado de las potentes herramientas de IA actuales a menudo conduce a flujos de trabajo ineficientes y resultados subóptimos. El OAF está diseñado explícitamente para combatir estos **anti-patrones**:
 
-El OAF es un sistema diseñado para transformar la investigación con IA de un proceso caótico a una ciencia sistemática. Se basa en una colaboración estructurada entre dos roles clave:
+-   **Cacería Heroica de Datos:** Semanas o meses dedicados a la búsqueda manual de fuentes, con un bajo retorno de la inversión de tiempo.
+-   **Parálisis por Análisis:** Un ciclo interminable de exploración de datos sin un camino claro hacia el insight accionable.
+-   **Hipótesis Huérfana:** Inversión de recursos significativos en líneas de investigación que resultan ser callejones sin salida.
+-   **Sobresaturación Técnica:** Comunicación de resultados centrada en la complejidad técnica en lugar del valor de negocio y el ROI.
 
-1.  **El Orquestador (Director Humano):** El estratega "Sistema 2" que aplica juicio experto, define la misión y valida los resultados.
-2.  **El Agente de Deep Research (DR):** El motor de exploración "Sistema 1" que realiza búsquedas masivas de información, sintetiza fuentes y genera hipótesis.
+## La Solución OAF: Una Arquitectura de Inteligencia Híbrida
 
-La interacción entre ambos es gobernada por el **Ciclo de Iteración Universal (UIC)**.
+El OAF propone una división deliberada del trabajo cognitivo entre dos componentes de IA distintos, gobernados por un director humano.
 
-### Diagrama de Flujo del OAF
+1.  **El Agente de Deep Research (DR) - El "Explorador" (Sistema 1):**
+    -   **Tecnología:** Un motor de investigación autónomo (ej. Google AI's Deep Research, Perplexity Pro) optimizado para la búsqueda masiva.
+    -   **Función:** Escanea cientos de fuentes web, papers académicos y APIs para **recolectar y sintetizar conocimiento externo**. Es el "Sistema 1": rápido, exploratorio y generador de hipótesis. Su trabajo es entregar informes estructurados y poblar nuestra base de datos de metadatos.
+
+2.  **El Orquestador - El "Estratega" (Sistema 2):**
+    -   **Tecnología:** Un Large Language Model conversacional con una vasta ventana de contexto (ej. Gemini 1.5/2.5 Pro) operando bajo un **Prompt de Sistema robusto**.
+    -   **Función:** No realiza búsquedas. Su rol es **razonar sobre el contexto proporcionado**. Ingiere los informes del Agente DR, analiza el estado del proyecto, diagnostica brechas y ayuda al director humano a diseñar la siguiente misión estratégica. Es el "Sistema 2": lento, deliberativo y crítico.
+
+### Diagrama de Flujo Detallado del OAF
+
+Este diagrama ilustra cómo el OAF transforma la investigación en un ciclo iterativo y estratégico, donde cada fase es una oportunidad para aplicar un **Arquetipo de Misión** específico.
 
 ```mermaid
 graph TD
-    subgraph "Fase de Proyecto (ej. Recolección de Datos)"
-        A[Director Humano define el Objetivo] --> B{Orquestador diseña Misión DR};
-        B --> C[Agente DR ejecuta Misión];
-        C -- Informe con Metadatos --> D[Base de Datos de Metadatos];
-        D -- Conocimiento Actualizado --> E{Orquestador evalúa estado};
-        C -- Informe --> E;
-        E -- ¿Brechas identificadas o bajo rendimiento? --> F{Decisión Estratégica};
-        F -- Sí (Refinar/Pivotar) --> B;
-        F -- No (Suficiente) --> G[Avanzar a la Siguiente Fase del Proyecto];
+    subgraph "Proyecto: Investigación Estratégica"
+        A[Director Humano define Objetivo] --> B{Orquestador: Activar Prompt de Sistema};
+        
+        subgraph "Ciclo de Iteración Universal (UIC)"
+            B --> C{1. Diseñar Misión};
+            C -- "Seleccionar Arquetipo (ej. #1 Cosechador de Datos)" --> D[Prompt DR Específico];
+            D --> E[2. Ejecutar Misión por Agente DR];
+            E -- "Informe con Fuentes, Datasets, etc." --> F(3. Poblar/Actualizar DB de Metadatos);
+            F -- "Contexto Actualizado" --> G{4. Orquestador: Evaluar y Diagnosticar};
+            E --> G;
+            G -- "Diagnóstico: Brechas, Calidad, ROI" --> H{5. Director Humano: Decisión Estratégica};
+            H -- "Avanzar" --> I[Siguiente Fase del Proyecto (ej. EDA)];
+            H -- "Refinar" --> C;
+            H -- "Pivotar (Anti-Patrón Detectado)" --> C;
+        end
     end
 
-    style B fill:#f9f,stroke:#333,stroke-width:2px
-    style E fill:#f9f,stroke:#333,stroke-width:2px
-    style D fill:#bbf,stroke:#333,stroke-width:2px
-```
-
+    style B fill:#8E44AD,stroke:#fff,stroke-width:2px,color:#fff
+    style G fill:#8E44AD,stroke:#fff,stroke-width:2px,color:#fff
+    style E fill:#2980B9,stroke:#fff,stroke-width:2px,color:#fff
+    style F fill:#16A085,stroke:#fff,stroke-width:2px,color:#fff
+    style H fill:#D35400,stroke:#fff,stroke-width:2px,color:#fff
 ## Anti-Patrones Abordados por el OAF
 
 El OAF está diseñado explícitamente para mitigar los "anti-patrones" comunes en la investigación no estructurada:
