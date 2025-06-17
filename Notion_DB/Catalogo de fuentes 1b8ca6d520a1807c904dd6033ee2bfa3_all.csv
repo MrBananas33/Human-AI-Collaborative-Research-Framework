@@ -1,0 +1,487 @@
+﻿ID,"Datos Analizados ",Leido,Datos Extraídos o Estructurados,Name,Tipo de fuente,Tipo de Datos,Calidad-Fiabilidad,Notas,Variables clave y Relevancia,Nivel de agregacion (tiempo y(o) espacio),Periodo relevancia,URL,Status de Análisis,Accesibilidad de datos
+F1-1,,Leido,No,Estadísticas delictivas FGJ,Pagina Web,Fuente de datos,"Baja, Media","Recopila datos que van desde 2014 hasta 2025 Pero necesitan procesamiento exhaustivo. SI HAY DATOS RELEVANTES PARA METRO CDMX. Son puros PDFs conviene mejor buscar si hay equivalentes. Creemos que hay mejores fuentes con datos de csvs en los otros registros que mencionamos con mayores detalles como el F1-14 osea Bases de datos de la FGJ que seria más viable analizarlos. ","Total de averiguaciones previas de fuero común/con violencia y sin violencia/Alto impacto social-bajo impacto social/Robo a pasajero en el metro-con y sin violencia/Número de averiguaciones previas por alcaldía/Tasa delictiva por alcaldía(número de averiguaciones previas por cada 10, 000 habitantes.",Todas las alcaldías de CDMX,Mensual desde 2014 has ta marzo de 2025,https://www.fgjcdmx.gob.mx/procuraduria/estadisticas-delictivas,Not started,
+F1-2,,Leido,No,Disminucion de robo 2019,Pagina Web,Nota periodistica,Media,Estrategias de seguridad y politicas implementadas para reducir el robo en 55%,"Número de robos por día en octubre deel año 2019: 4.6 casos. ",Sólo STC,Reporta disminución de incidencia delictiva de octubre de 2018 a octubre de 2019.,https://metro.cdmx.gob.mx/comunicacion/nota/disminuye-cerca-del-55-el-robo-en-el-metro,Not started,
+F1-3,,Leido,No,Percepción sobre Seguridad Pública (ENVIPE) 2024,Pagina Web,Fuente de datos,Alta,". HAY BASE DE DATOS CSV. Gran cantidad de variables sobre seguridad, victimización, incidencia delictiva y percepción de inseguridad. Hay datos sobre CDMX, aunque muy generales..","Incidencia delictiva por entidad federativa/delitos más frecuentes por entidad federativa(en CDMX es robo o asalto en la calle o transporte público)/Tasa de incidencia delictiva por cada 100,000 habitantes por entidad federativa , por delito y por año/",Parece que hay datos por alcaldía en CMX.,"Anual, desde 2011 hasta 2024",https://www.inegi.org.mx/programas/envipe/2024/#documentacion,Not started,
+F1-4,,Leido,No,Incidencia delictiva INEGI,Pagina Web,Fuente de datos,Alta,"Muestra visualización de la incidencia delictiva, pero hace falta filtrar por tipo de delito o estado",Incidencia delictiva por entidad federativa.,CDMX en general,"Anual, desde 2011 hasta 2024",https://www.inegi.org.mx/temas/incidencia/#informacion_general,Not started,
+F1-6,,Leido,No,Estaciones más peligrosas,Pagina Web,Nota periodistica,Media,"Poca información. Menciona un informe de un tal Consejo de Evaluación de la CDMX. ","Único dato relevante: estaciones con mayor probabilidad de sufrir un robo son las siguientes: Pantitlán,
+ Hidalgo, Tacuba, Guerrero, Pino Suárez, Tacubaya, Balderas, 
+Universidad, Indios Verdes, Cuatro Caminos y constitución de 1917.",—,—,https://www.infobae.com/mexico/2024/01/12/estas-son-las-estaciones-del-metro-cdmx-mas-peligrosas-segun-la-fiscalia/,Not started,
+F1-8,,Leido,No,Aumento de robos 2025,Pagina Web,Nota periodistica,Media,"No es relevante; Es de señalar que este transporte público, tuvo una notable mejora de 2019 a 2020, cuando pasó de dos mil 811 robos en el primer año, a 782 en el segundo",[las mismas señaladas en Notas],—,—-,https://vecinosinformados.com/incrementan-robos-en-el-metro-de-la-cdmx/,Not started,
+F1-9,,Leido,No,"Indicadores, percepcion y valoracion de desempeño institucional en seguridad",informe Oficial (Gobierno),Fuente de datos,Alta,"Tiene un gran potencial de datos relevantes al buscar palabras clave como: “Metro”, “Criminalidad”, “Robo”. Por ejemplo al buscar “Metro” denota datos como estaciones con mayores robos. Por lo que se recomienda buscar el reporte completo donde suele existir mayor informacion de el informe EVALUA con el mismo titulo. Por ej. “Evalua “Indicadores para la medición de la
+victimización, la percepción y la valoración del desempeño
+institucional en seguridad en la Ciudad de México.”","Sistema de Transporte Colectivo Metro
+encontramos que, entre 2019 y 2022, en la estación Pantitlán y sus
+alrededores se concentra el mayor número de víctimas por los
+delitos de “robo a pasajeros a bordo del Metro, con y sin violencia”,
+mientras que en lo que respecta al Metrobús, la estación
+Buenavista concentra el mayor número de víctimas para el delito
+de robo a pasajero a bordo de Metrobús con y sin violencia.
+",—-,—-,https://www.evalua.cdmx.gob.mx/storage/app/media/2023/di/boletiin-seguridad-ciudadana-vf-061223.pdf,Not started,
+F1-10,,Leido,No,Seguridad Ciudadana EVALUA  [MUY INTERESANTE O CRUCIAL],Pagina Web,Fuente de datos,Alta,"Este documento del Consejo de Evaluación de la Ciudad de México es una fuente clave para analizar la seguridad ciudadana en la CDMX entre 2018 y 2022. Proporciona datos de victimización (FGJ, SESNSP, ENVIPE), percepción (ENVIPE, ENCIG) y desempeño institucional (ENCIG). Su relevancia para nuestro proyecto de análisis de robo en el Metro es alta debido al desglose de delitos en transporte público, especialmente el robo en el Metro por estación (pág. 196). El hallazgo de la base de datos actualizada de víctimas en carpetas de la FGJ (referenciada en pág. 196) hasta 2024 es crucial. Permite un análisis descriptivo más reciente del robo en el Metro por estación y mejora la capacidad predictiva. La inclusión de datos sobre el Índice de Desarrollo Social por alcaldía (pág. 203) es también muy valiosa para el análisis socioeconómico del delito.
+El documento contiene numerosas tablas con diferentes niveles de agregación temporal y espacial. Es fundamental consultar las notas al pie para entender la metodología y limitaciones de cada fuente.
+Posibles análisis sugeridos para el proyecto de Robo en el Metro (actualizados con IDS y comparativos):
+• Análisis descriptivo actualizado del robo en el Metro por estación (2018-2024): Utilizar la base de datos actualizada de FGJ para identificar estaciones ""punto caliente"", tendencias recientes por estación, y patrones temporales (mensuales, horarios). Crear mapas de ""calor"" actualizados del robo en el Metro.
+• Análisis predictivo (Forecasting) robusto del robo en el Metro por estación (2018-2024 y predicción hasta 2026): Aplicar modelos de series temporales (ARIMA, suavizado exponencial) a los datos de robo por estación hasta 2024 para pronosticar la incidencia hasta 2026. La serie más larga permite pronósticos más robustos.
+• Análisis comparativo de la victimización en el Metro vs. otros medios de transporte y en vía pública: Utilizar los datos disponibles (ENVIPE y FGJ) para comparar la incidencia y prevalencia del robo en el Metro con Metrobús, taxi, microbús/pesero, CETRAM y robo a transeúnte. Identificar si el Metro presenta patrones distintos o tendencias similares a otros medios.
+• Análisis de la relación entre el robo en el Metro y el Índice de Desarrollo Social (IDS): Cruce de datos de robo en el Metro por alcaldía con el IDS de 2020 (y buscar datos actualizados si están disponibles en la fuente de EVALÚA). Explorar si existe una correlación entre el nivel de desarrollo social y la incidencia del robo en el Metro por alcaldía. Esto es clave para tu enfoque socioeconómico. Se podría extender el trabajo de estos investigadores realizando un Buffers de proximidad) 
+• Actualizar el análisis de proximidad: Realizar análisis de buffers alrededor de las estaciones del Metro y cruzar con otros datos georreferenciados (como delitos en vía pública cercana, datos socioeconómicos por área). El informe EVALUA menciona el análisis con buffers de 400m (pág. 196 del informe de victimización), lo que valida la relevancia de este tipo de análisis espacial.
+• Correlación entre victimización en el Metro y percepción de inseguridad en el transporte público: Cruzar los datos de robo en el Metro por estación/alcaldía con los datos de percepción de inseguridad en el transporte público o en las alcaldías correspondientes (si están actualizados en ENVIPE/ENCIG).","
+• Número total de delitos ocurridos a personas de 18 años o más (Ciudad de México y por región). Relevante para tener un panorama general de la delincuencia en la CDMX (Datos ENVIPE).
+• Número total de delitos ocurridos a personas de 18 años o más por sexo de la víctima (Ciudad de México y por región). Relevante para identificar patrones de victimización por género (Datos ENVIPE).
+• Distribución porcentual de delitos por mes y hora de ocurrencia (Ciudad de México, y por sexo de la víctima para hora). Relevante para identificar patrones temporales de los delitos (Datos ENVIPE).
+• Porcentaje de delitos según número de delincuentes, sexo de los delincuentes y relación víctima-delincuente. Relevante para caracterizar a los actores delictivos (Datos ENVIPE).
+• Proporción de delitos donde los delincuentes estaban bajo efectos de alcohol, drogas u otro estimulante. Relevante para entender factores asociados a la comisión de delitos (Datos ENVIPE).
+• Proporción de delitos según condición de portación de armas por parte del delincuente (arma de fuego, otras armas). Relevante para evaluar la peligrosidad de los delitos (Datos ENVIPE).
+• Tasa de delitos denunciados y delitos denunciados con carpeta de investigación (Ciudad de México y por región). Relevante para entender la magnitud de la cifra negra y la respuesta institucional (Datos ENVIPE).
+• Cifra negra por región y grupo de edad. MUY relevante para entender la subestimación de los datos oficiales de delitos reportados, incluyendo robos (Datos ENVIPE).
+• Número y Tasa de incidencia delictiva de carpetas de investigación iniciadas por categoría de delito (Alto/Bajo Impacto) y año de inicio (Ciudad de México y por alcaldía). Relevante para seguir las tendencias de los principales tipos de delitos a nivel agregado y local (Datos FGJ).
+• Carpetas de investigación y tasa de incidencia para delitos específicos, incluyendo ""Robo a pasajero a bordo del Metro con y sin violencia"" y otros robos relacionados con transporte público. ALTAMENTE relevante como variable resultado principal para nuestro proyecto (Datos FGJ).
+• Colonias con mayor concentración de carpetas de investigación por violencia familiar (mapeo por alcaldía). Podría ser relevante si exploramos correlaciones entre violencia familiar y otros delitos en zonas específicas (Datos FGJ).
+• Número de víctimas en carpetas de investigación según periodo y lugar de ocurrencia (Ciudad de México y por alcaldía). Relevante para entender el impacto de los delitos en las personas (Datos FGJ).
+• Número de víctimas en carpetas de investigación por sexo y categoría del delito. Relevante para analizar la victimización por género a nivel de víctima directa (Datos FGJ).
+• Número de víctimas en carpetas de investigación por tipo de persona (Física, Moral, NA) y alcaldía de ocurrencia. Relevante para diferenciar la victimización según la naturaleza de la víctima (Datos FGJ).
+• Víctimas de feminicidios según sexo de la víctima y alcaldía/lugar de ocurrencia. Relevante para un análisis de género en delitos de alto impacto (Datos FGJ).
+• Geolocalización de víctimas de robos específicos, incluyendo robo a transeúnte, robo de vehículo y ROBOS EN EL METRO (vía la base de datos actualizada de FGJ). Relevante para mapeo de puntos calientes y análisis espacial específico para el Metro.
+• Víctimas en carpetas de investigación por delitos de robo a pasajeros del Metro y Metrobús por estación. CRUCIAL para identificar las estaciones con mayor incidencia de robo en el Metro y Metrobús, variable resultado clave (Datos FGJ).
+• Víctimas en carpetas de investigación e Índice de Desarrollo Social de la alcaldía. MUY relevante para tu enfoque en variables sociales y socioeconómicas. Permite vincular los delitos reportados en carpetas con el nivel de desarrollo de la alcaldía donde ocurrieron. (Datos FGJ y EVALÚA)
+• Tasa de incidencia delictiva en personas por tipo de delito (ENVIPE) y región. Relevante para comparar la incidencia percibida con la reportada.
+• Tasa de robo o asalto en calle o transporte público (ENVIPE) por región. Directamente relevante para la victimización en el transporte público.
+• Tasas de prevalencia delictiva en personas y hogares (ENVIPE) por región. Relevante para entender la proporción de la población afectada por la delincuencia.
+• Datos de homicidios (número, tasas, años de vida perdida, medio empleado, geolocalización) por alcaldía y grupo etario. Relevante como contexto de seguridad general y análisis de delitos de alto impacto (Datos INEGI Mortalidad).
+• Percepción de inseguridad en distintos espacios cotidianos (ENVIPE) a nivel CDMX y por región, desagregado por sexo y espacio. Relevante para cruzar con datos de victimización en esos espacios, especialmente transporte público y calle.
+• Cambio de hábitos de la población por temor a ser víctima (ENVIPE) a nivel CDMX y por región, desagregado por sexo y tipo de cambio de hábito. Relevante para entender cómo la inseguridad afecta el comportamiento ciudadano, lo que podría influir en la afluencia al Metro.
+• Valoración del desempeño institucional (policía, Ministerios Públicos, Ejército/Marina) y disposición a ayudar (policía), insatisfacción con el servicio. Relevante para entender la perspectiva ciudadana sobre las autoridades de seguridad, un factor contextual (Datos ENCIG).","
+• Temporal: Anual (2018-2022 o 2024 según base de datos), Mensual (distribución por mes), Diario (distribución por hora), Puntual (edad al momento de desaparición, años de vida perdida). La base de datos actualizada de FGJ sobre víctimas en carpetas, especialmente la de robo en el Metro por estación, nos proporciona datos con una granularidad temporal que, si es mensual o diaria, mejora enormemente las posibilidades de forecasting.
+• Espacial: Ciudad de México total, por Región (Norte, Sur, Oriente, Poniente, NE), por Alcaldía, por Colonia, por Estación del Metro/Metrobús/CETRAM (específico para robo en Metro/Metrobús), geolocalización por coordenada (para algunos delitos). El Índice de Desarrollo Social está agregado a nivel Alcaldía.","Principalmente 2018-2022 para los datos agregados del informe y de encuestas. La base de datos de víctimas en carpetas de investigación de la FGJ (mencionada en la pág. 196), ahora actualizada hasta 2024, es la fuente más relevante para el análisis descriptivo y predictivo del robo en el Metro en el período 2018-2024. Los datos del Índice de Desarrollo Social referenciados son de 2020.",https://www.evalua.cdmx.gob.mx/estudioseinvestigaciones/seguridad-ciudadana-,Not started,
+F1-11,,Leido,No,Datos de incidencia delictiva Datos abiertos (SESNSP),Pagina Web,Fuente de datos,Alta,Multiples fuentes,"    ◦ Cifras de Víctimas del Fuero Común por Bien jurídico afectado, Tipo de delito, Subtipo de delito, Modalidad, Sexo, Rango de edad. ALTAMENTE relevante para entender las características de las víctimas de delitos del fuero común, incluyendo robos.
+    ◦ Cifras de Incidencia Delictiva Federal por Bien jurídico afectado, Tipo de delito, Subtipo de delito, Modalidad, Sexo, Rango de edad. Relevante para tener contexto sobre delitos federales en la CDMX, aunque el foco principal sea fuero común.
+• ","    ◦ Temporal: Mensual (hasta marzo de 2025).
+    ◦ Espacial: Entidad federativa (Ciudad de México y otras entidades).","
+• Periodo relevancia:
+    ◦ Cifras de Víctimas del Fuero Común: 2015 - marzo 2025.
+    ◦ Cifras de Incidencia Delictiva Federal: 2012 - marzo 2025.",https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-delictiva,Not started,
+F1-12,,Leido,No,Reportaje 2024,Pagina Web,Nota periodistica,Media,"Cifra negra: Se menciona que muchos delitos no son denunciados debido a la desconfianza en el sistema de justicia.Modus operandi: Se identifican robos con violencia, sin violencia y nuevas modalidades como los ""pinchazos"".Impacto en seguridad: Se destaca la necesidad de mayor inversión en seguridad y vigilancia en el Metro.","
+• Número de carpetas de investigación: 902 casos de robo en el Metro entre enero y septiembre de 2024.
+    ◦ Con violencia: 28 casos.
+    ◦ Sin violencia: 874 casos.
+• Estaciones con mayor incidencia: Pantitlán, Hidalgo, Pino Suárez, Balderas, Tacubaya, Chabacano, Centro Médico, Zapata, Tacuba y Guerrero.
+• Presencia policial: 5,845 elementos de seguridad en las 195 estaciones del Metro.
+• Equipamiento de seguridad: 23 máquinas de rayos X, de las cuales solo 9 funcionan.
+• Operativos de seguridad: Implementación de revisiones en estaciones de alto flujo y despliegue de la Guardia Nacional en 2023.
+",Temporal: Mensual (Datos de enero a septiembre de 2024).Espacial: Estaciones específicas del Metro CDMX.,"
+• Datos recientes: 2024.
+• Contexto histórico: Referencias a incidentes previos en 2009 y 2023.",https://politica.expansion.mx/cdmx/2024/11/30/seguridad-metro-cdmx,Not started,
+F1-13,,Leido,No,Informe Movilidad EVALUA,informe Oficial (Gobierno),Fuente de datos,Media,"Contiene datos de horarios de incidentes de robo más comunes, pero es necesario interpretar los datos y su relevancia. Además contiene un analisis descriptivo breve de los ultimos años en materia de seguridad y robo.","Tabla de historial de robos en transporte público de CDMX, desglosado por horas.",CDMX en general,"Anual y por horas, desde 2012 hasta 2023.",https://www.evalua.cdmx.gob.mx/storage/app/media/2024/se/epm/informe-evaluacion-movilidad-2024.pdf,Not started,
+F1-14,,Leido,No,Bases de datos FGJ,Pagina Web,Fuente de datos,Alta,"Contiene diversas fuentes de FGJ a evaluar, y analizar","Las variables que contiene esta base son Carpetas de investigación de delitos a nivel de calle de la FGJ por Fiscalía, Agencia, Unidad de Investigación, fecha de apertura de la carpeta de investigación, delito, categoría de delito, calle, colonia, alcaldía, coordenadas, mes y año.  Hay archivos CSV.",Todas las alcaldías de CDMX,Mensual. Hay archivos CSV desde 2016 hasta 2023.,https://datos.cdmx.gob.mx/dataset/?organization=fiscalia-general-de-justicia,Not started,
+F1-17,,Leido,No,Ubicacion de lineas del metro (SHP/KMZ),Conjunto de datos (CsV),Fuente de datos,Alta,"Este registro es crítico para el análisis espacial del robo en el Metro. Los archivos SHP proporcionan la geografía de las líneas y estaciones. La tabla de atributos (.dbf), accesible a través de software SIG o librerías de programación geoespacial, contiene el nombre, línea y alcaldía de cada estación, lo que permite cruzar estos datos con los registros de robo por estación de la base de datos actualizada de víctimas de la FGJCDMX que has encontrado.
+Este dataset, al combinarse con los datos de robo de la FGJCDMX, permite:
+• Extender el análisis espacial y geográfico de los informes EVALUA: Ir más allá de los mapas de calor agregados a nivel de alcaldía y visualizar los puntos calientes de robo directamente en el mapa del Metro.
+• Actualizar el análisis de proximidad: Realizar análisis de buffers alrededor de las estaciones del Metro y cruzar con otros datos georreferenciados (como delitos en vía pública cercana, datos socioeconómicos por área). El informe EVALUA menciona el análisis con buffers de 400m (pág. 196 del informe de victimización), lo que valida la relevancia de este tipo de análisis espacial.
+• Potencialmente, enriquecer los análisis predictivos: Al agregar la ubicación espacial y los atributos de la estación como variables en modelos predictivos, se podría mejorar la precisión de los pronósticos (si se utilizan técnicas predictivas espaciales o se codifican las variables de ubicación de manera apropiada).
+Leer la tabla de atributos (.dbf) de un Shapefile requiere software SIG (como QGIS - gratuito) o usar bibliotecas de Python (como geopandas). Aunque puede requerir una exploración inicial de estas herramientas, es el paso necesario para desbloquear todo el potencial de análisis espacial de este dataset. 
+Porencialmente enriquecer el analisis de buffer de proximidad con datos de robo de la FGJCDMX.","
+• Geometría de las líneas del Metro (líneas): Representación espacial de las rutas del Metro.
+• Geometría de las estaciones del Metro (puntos): Ubicación precisa de cada estación en el espacio geográfico.
+• Tabla de atributos (.dbf): Contiene información clave para cada estación, como SISTEMA (STC Metro), NOMBRE (nombre de la estación), LINEA (línea a la que pertenece), ALCALDIAS (alcaldía donde se ubica), AÑO (año de apertura). Esta tabla es fundamental para vincular los datos de robo por estación (provenientes de la base de datos actualizada de víctimas de FGJ) con la información geográfica y atributos de cada estación.","
+• Temporal: N/A (Datos estáticos de la infraestructura).
+• Espacial: Puntual (Estaciones), Lineal (Líneas).",Representa la configuración del Metro a la fecha de actualización del dataset. Es un dato geográfico estático.,https://datos.cdmx.gob.mx/dataset/lineas-y-estaciones-del-metro,Not started,
+F1-18,,Leido,No,Afluencia de pasajeros,Conjunto de datos (CsV),Fuente de datos,Alta,"Este dataset de afluencia diaria del STC Metro es una fuente de datos indispensable y altamente relevante para nuestro proyecto. Proporciona la afluencia de pasajeros desagregada por estación y línea desde enero de 2010 y se actualiza mensualmente hasta la fecha más reciente (marzo de 2025 según tu hallazgo de la base de robos, es probable que la afluencia también llegue hasta una fecha similar o más reciente). La disponibilidad de esta serie temporal larga y granular (por estación) es clave para realizar análisis de correlación robustos con los datos de robo de la FGJCDMX (que tienes hasta 2025). La afluencia por estación es una variable explicativa principal para entender la variación espacial y temporal del robo. El documento menciona una base de ""Afluencia Desglosada"" a partir de enero de 2022 que podría ofrecer granularidad adicional (ej. por hora), lo cual es interesante para análisis específicos de patrones temporales intradiarios si fuera relevante.
+Cómo se relaciona con otros análisis:
+• Correlación y Modelado con Robo por Estación: La afluencia diaria por estación es la variable explicativa primaria para usar en modelos de regresión o series temporales multivariados para predecir el robo por estación.
+• Análisis de Riesgo por Pasajero: Permite calcular la incidencia de robo por pasajero en cada estación o línea, ofreciendo una perspectiva diferente al número total de robos.
+• Análisis de Puntos Calientes Dinámicos: Al combinar datos de afluencia y robo a lo largo del tiempo, se puede identificar cómo cambian los puntos calientes de robo en función de los patrones de uso del Metro.","
+• Afluencia diaria por Estación: Número de pasajeros que ingresan a cada estación por día. CRUCIAL como variable explicativa fundamental para el robo en el Metro por estación.
+• Afluencia diaria por Línea: Número de pasajeros que utilizan cada línea por día. Relevante para entender la carga de pasajeros por línea.
+• Afluencia diaria Total del Sistema: Suma de la afluencia de todas las estaciones/líneas por día. Relevante para tener un panorama general del uso del Metro.","
+• Temporal: Diaria, con posibilidad de agregación a Mensual y Anual.
+• Espacial: Por Estación, por Línea, Total del Sistema.",Enero de 2010 - mes más reciente (se actualiza mensualmente). Crucial serie temporal larga disponible para afluencia por estación y línea.,https://datos.cdmx.gob.mx/dataset/afluencia-diaria-del-metro-cdmx,Not started,
+F1-19,,Leido,No,Metros con más afluencia 2025,Noticia,Nota periodistica,Media,"Cifra negra: No se menciona explícitamente, pero el artículo destaca la disminución de robos reportados.Modus operandi: Se habla de estrategias para inhibir el robo, incluyendo el uso de silbatos, megáfonos y patrullajes constantes.Impacto en seguridad: La reducción del robo en 54.77% se atribuye a estrategias de vigilancia y operativos diarios.","—-Número de carpetas de investigación: No se especifica número de casos exactos, pero se reporta una reducción del promedio diario de 10.19 delitos en diciembre 2018 a 4.65 en octubre 2019.Estaciones con mayor incidencia: No se mencionan estaciones específicas.Presencia policial: 3,761 elementos policiales en total.
+• 2,395 de la Policía Auxiliar (PA).
+• 1,366 de la Policía Bancaria e Industrial (PBI).Equipamiento de seguridad: Se menciona el uso de cámaras de vigilancia y monitoreo centralizado, pero no se detallan equipos como máquinas de rayos X.Operativos de seguridad: Se realizan operativos diarios en andenes y trenes en coordinación con el Puesto Central de Monitoreo (PCM). También hay fichas delictivas de carteristas.",Temporal: Comparativa entre diciembre 2018 y octubre 2019.Espacial: No se detallan estaciones específicas.,"
+• Contexto histórico: Se menciona la situación de seguridad previa en diciembre de 2018 y las medidas tomadas a lo largo de 2019.
+","https://www.eleconomista.com.mx/politica/metro-cdmx-estaciones-mayor-afluencia-20250218-746842.html#:~:text=En%20sus%2012%20l%C3%ADneas%20de%20operaci%C3%B3n%20transport%C3%B3%20a,41.6%20millones%20de%20pasajeros%20transportados%20en%20el%20a%C3%B1o.",Not started,
+F1-20,,Leido,No,Datos de afluencia Metro CDMX,informe Oficial (Gobierno),Fuente de datos,Alta,"Muy util para datos OFICIALES de la afluencia para modelos de correlacion o pruebas de hipotesis modelos historicos de afluencia. Pero ya contamos con una fuente mejor estructurada que es la de el portal de datos, esta solo contiende tablas y no tiene disponibles datos en formato csv. Recomendamos usar la otra fuente.",—-,—,,https://metro.cdmx.gob.mx/operacion/mas-informacion/afluencia-de-estacion-por-linea,Not started,
+F1-21,,Leido,No," Blog ""Robo a bordo transporte público"" (José Antonio Sánchez - Dátil)
+",Articulo Academico,Nota periodistica,Alta,"Este blog de José Antonio Sánchez es una fuente altamente inspiradora y metodológicamente valiosa. Presenta un análisis detallado del robo en transporte público (enfocado en transporte concesionado, no Metro específicamente, aunque hay solapamiento) utilizando datos de la FGJ (entonces PGJ) desagregados a nivel calle. Confirma la relevancia de los datos de la FGJ, destaca la importancia de calcular tasas por 100,000 habitantes para comparaciones entre alcaldías, y revela patrones temporales y espaciales de alta concentración de robos. La identificación de tramos de rutas y clusters de riesgo son ideas de análisis espacial avanzadas que podemos adaptar para el Metro. El hecho de que el autor haya compartido su código es una gran ventaja para replicar o adaptar sus métodos.
+Análisis Potenciales Sugeridos (inspirados directamente en este blog):
+• Calcular Tasas de Robo por 100,000 habitantes por Alcaldía: Utilizar los datos de robo (FGJ/SESNSP) a nivel alcaldía y los datos de población (INEGI Censo 1990-2020, extrapolados) para calcular tasas y compararlas entre alcaldías.
+• Análisis Espacial Detallado en el Metro (tipo blog): Adaptar la metodología del blog para identificar ""tramos"" de alto riesgo dentro de cada línea del Metro (si la base de datos de víctimas de FGJ permite identificar la línea y la estación, se podría inferir una ubicación en la línea) y visualizarlo similar al mapa de rutas concesionadas.
+• Análisis de Clusters de Riesgo en el Metro: Aplicar una metodología similar a la del blog (algoritmo de aprendizaje automático) para identificar agrupaciones espaciales de estaciones o tramos del Metro con alta incidencia de robo.
+• Replicar/Extender el Análisis Temporal y Horario: Adaptar el análisis de picos por mes y hora del día del blog con tus datos actualizados de robo en el Metro.","
+• Estadísticas de robos en transporte público (peseros, transporte público general) 2016-2018 a nivel CDMX (totales, tendencias anuales). Relevante como contexto histórico y comparativo para robo en Metro.
+• Tendencias de robo desagregadas por alcaldía 2016-2018 (identifica Iztapalapa, GAM con mayor aumento). Relevante para análisis local.
+• Patrones temporales de robo (mes, hora). Corrobora hallazgos de otras fuentes (picos a fin de año, mañanas).
+• Identificación de tramos de ruta de transporte público concesionado con más robos (street-level spatial data, incluye ejemplos específicos con rutas y avenidas). MUY RELEVANTE como inspiración metodológica para analizar el robo en tramos específicos de las líneas del Metro.
+• Identificación de conglomerados (clusters) de riesgo de robo en transporte público mediante algoritmo de aprendizaje automático (29 clusters). MUY RELEVANTE como inspiración metodológica para análisis espacial avanzado.
+• Discusión sobre la influencia de factores externos (salidas de la ciudad, horarios de traslado laboral/escolar).","
+• Temporal: Anual (2016-2018), Mensual, Horario.
+• Espacial: CDMX total, por Alcaldía, por Tramo (kilómetro), por Conglomerado (cluster), por Colonia/Calle (para ejemplos)."," Datos analizados principalmente de 2016 a 2018. La fuente de datos es Enero 2019 de la ADIP/PGJ.",https://redaccion.nexos.com.mx/robo-a-bordo-transporte-publico-a-quienes-afecta-y-donde-atenderlo/,Not started,
+F1-22,,Leido,No,Repositorio Analisis anterior,Respuesta Adademica,Fuente de datos,Alta,MUY RELEVANTE GITHUB ANTERIOR,,,,https://github.com/jsp9/robo_transporte/,Not started,
+F1-23,,Leido,No,Principales medidas que afectaron al robo en la CDMX,Noticia,Nota periodistica,Baja,Principales medidas que afectaron a la disminucion de robos en un 55% en 2019,,,,https://www.metro.cdmx.gob.mx/comunicacion/nota/disminuye-cerca-del-55-el-robo-en-el-metro,Not started,
+F1-26,,Leido,No,ENVIPE DATOS A NIVEL NACIONAL Boletines en PDFs,informe Oficial (Gobierno),Fuente de datos,Baja,Hay analisis descriptivos de delincuencia en general,"• Temporal: Mensual.
+• Espacial: Ciudades de interés (incluye la Ciudad de México a nivel agregado y posiblemente por alcaldía en otros archivos). La desagregación por ""ciudades"" implica que para CDMX tendrás un valor agregado, no por alcaldía, a menos que otros archivos lo permitan.",,,https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2024/ENVIPE/ENVIPE_24.pdf,Not started,
+F1-27,,Leido,No,Encuesta Nacional de Seguridad Pública Urbana (ENSU),Conjunto de datos (CsV),Fuente de datos,Alta,"
+• Distribución porcentual de la población de 18 años y más que reside en áreas urbanas (ciudades) de interés por Sensación de seguridad en espacio público (Casa, Trabajo, Calles, Escuela, Mercado, Centro comercial, Banco, Cajero automático, Transporte público, Automóvil, Carretera, Parque recreativo). CRUCIAL para el análisis de percepción de inseguridad en diferentes espacios, incluyendo el transporte público, y para construir el bump chart.
+• Otros archivos XLSX relevantes identificados:
+    ◦ 9.Bas_problematicas_percepcion_desempeno_gob_mar_2025_est.xlsx: Probablemente contenga datos sobre la percepción de los principales problemas en la ciudad y la valoración del desempeño de gobierno en distintos temas (seguridad incluida). Relevante para entender si la inseguridad es un problema prioritario y cómo se valora la gestión.
+    ◦ 8.Bas_percepcion_de_desempeno_mar_2025_est.xlsx: Similar al anterior, enfocado en la percepción del desempeño de las autoridades de seguridad. Relevante para la sección de desempeño institucional.
+    ◦ 6.Bas_fuentes_informacion_seguridad_publica_mar_2025_est.xlsx: Podría indicar de dónde obtiene la población información sobre seguridad. Menos prioritario, pero puede dar contexto.
+    ◦ 5.Bas_conflictos_o_enfrentamientos_mar_2025_est.xlsx: Podría contener datos sobre la atestiguación de conflictos o delitos en el entorno. Relevante para la sección de atestiguación.
+    ◦ 4.Bas_cambio_de_habitos_mar_2025_est.xlsx: Contiene datos sobre los cambios de hábitos por temor a ser víctima (salir de noche, usar joyas, etc.). MUY RELEVANTE para la sección de cambio de hábitos y entender cómo la inseguridad impacta el comportamiento.
+    ◦ 3.Bas_atestiguacion_mar_2025_est.xlsx: Probablemente contenga datos sobre qué delitos o conductas antisociales ha atestiguado la población. Relevante para la sección de atestiguación.
+    ◦ 2.Bas_expectativas_mar_2025_est.xlsx: Podría contener datos sobre las expectativas futuras de seguridad. Menos prioritario, pero puede dar contexto.
+    ◦ 14.Bas_confianza_niveles_gob_mar_2025_est.xlsx: Percepción de confianza en diferentes niveles de gobierno. Relevante para la sección de desempeño institucional.
+    ◦ 10.Bas_conocimiento_acciones_gob_mar_2025_est.xlsx: Podría indicar si la población conoce las acciones de gobierno en seguridad. Menos prioritario.",——,,,https://www.inegi.org.mx/programas/ensu/#tabulados,Not started,
+F1-30,,Leido,No,Factors contributing to theft in public transportation systems worldwide specifically on Metro or Subways Respuestas Scispace,Respuesta Adademica,Fuente de datos,Media,Respuesta deep Scispace,,,,https://scispace.com/search/factors-contributing-to-theft-in-public-transportation-nsrc6wyees,Not started,
+F1-32,,Leido,No,Economic and Social Determinants of Theft in Urban Transit,Respuesta Adademica,Fuente de datos,Media,"Esta fuente de Scispace es particularmente relevante para el componente socioeconómico de tu análisis. Se enfoca en la investigación de los determinantes económicos y sociales del robo en transporte público. Confirma la relación positiva entre pobreza/bajos ingresos y el robo, pero presenta el matiz importante de que la evidencia directa sobre el impacto del desempleo y la desigualdad de ingreso es menos clara en la literatura revisada para este contexto. Esto es un hallazgo crucial para guiar tu análisis con los datos de Censo (Empleo) y PNUD (IDH/IDG). Reitera la importancia de otros factores físicos y temporales.
+Se relaciona con: Análisis de Factores Asociados (principalmente socioeconómicos), Correlación, Modelado de Regresión/ARIMAX/Prophet (para selección de variables exógenas, especialmente las socioeconómicas), Análisis Espacial (LISA bivariado).","    ◦ Correlación entre niveles de ingreso bajos/pobreza y robo/miedo al crimen en transporte público. MUY RELEVANTE y confirma la hipótesis de que la pobreza/ingreso local importa para el robo.
+    ◦ Hallazgo clave: No encontraron evidencia directa en los estudios revisados sobre la correlación de desempleo o desigualdad de ingreso con el robo en transporte público. CRUCIAL para matizar tus análisis y expectativas.
+    ◦ Otros factores influyentes: Desorganización social, presencia de turistas, densidad de edificios domésticos cercanos (efecto protector), congestión, accesibilidad, CCTV, staffing, patrones temporales (picos, noche). Reitera y enfoca hallazgos del otro resumen de Scispace.
+• "," Los estudios revisados tienen diferentes niveles de agregación y períodos.",,https://elicit.com/review/51ae4c60-5126-4b63-8c83-7ff4d843eae3,Not started,
+F1-62,,Leido,No,Datos de la carpeta de investigacion PGJ,Conjunto de datos (CsV),Fuente de datos,Alta,"Este dataset, referenciado y utilizado en el blog de Dátil, contiene datos de carpetas de investigación de la FGJ (antes PGJ) sobre robos en transporte público con un alto nivel de granularidad espacial (coordenadas, calle) y temporal (fecha, hora) para el periodo 2016-2018. Aunque el periodo es anterior a la mayor parte de nuestros otros datos, es extremadamente valioso como ejemplo metodológico para realizar análisis espaciales detallados (identificación de tramos de ruta peligrosos, clusters de riesgo) y temporales. Si podemos obtener un dataset similar y actualizado directamente de la FGJ o Datos Abiertos CDMX (hasta 2024/2025), sería la fuente ideal para nuestro análisis principal de robo en el Metro. Este registro del blog sirve como un excelente caso de estudio y una guía para el tipo de datos que necesitamos. El blog también menciona la importancia de calcular tasas por 100,000 habitantes usando datos de población.
+Relevancia para extender/inspirar análisis:
+• Metodología de Análisis Espacial: El blog demuestra cómo usar datos a nivel calle con geometrías de rutas para identificar tramos peligrosos. Podemos adaptar esto a las líneas y estaciones del Metro.
+• Identificación de Clusters: La aplicación de algoritmos de aprendizaje automático para encontrar conglomerados de riesgo es una técnica avanzada que podríamos explorar.
+• Análisis Temporal Detallado: Los patrones por mes y hora del día identificados pueden ser replicados y actualizados con nuestros datos.","
+• ao_hechos, mes_hechos, FechaHecho, HoraHecho: Para análisis temporal.
+• delito: Categoría del delito (ej. ""ROBO A BORDO DE PESERO C/V"", ""ROBO A BORDO DE TRANSPORTE PUBLICO S/V"").
+• fiscalia, agencia, unidad_investigacion: Información administrativa.
+• categoria_delito: ""DELITO DE BAJO IMPACTO"" u otro.
+• AlcaldiaHechos, municipio_hechos, colonia_datos, fgj_colonia_registro: Información espacial clave para agregar por alcaldía o colonia.
+• longitud, latitud: Coordenadas geográficas exactas del hecho delictivo. ¡CRUCIALES para análisis espaciales detallados y vincular con estaciones del Metro!","
+• Temporal: Fecha y Hora exacta del hecho.
+• Espacial: Coordenada geográfica (longitud, latitud), Colonia, Alcaldía."," 2016 - 2018 (según el blog).",https://datos.cdmx.gob.mx/dataset/carpetas-de-investigacion-pgj-cdmx/resource/3f308147-b1fc-49a9-92b7-e74f3f79aa9c,Not started,
+F1-64,,Leido,No,DeepR. Datos Sociologicos y Teoría de la desorganización social,Reporte Deep Research,Fuente de datos,Alta,"Este informe/guía metodológica de Scispace es fundamental para proporcionar un marco teórico (TDS) y metodológico detallado para el análisis del robo urbano en México, utilizando datos públicos (INEGI, CONEVAL) a nivel local (AGEB/municipal). Ofrece una guía paso a paso para operacionalizar conceptos de la TDS, presenta ejemplos de estudios prácticos con modelos (regresión, Moran's I, LISA) y discute los desafíos y soluciones del análisis con datos agregados. Es la fuente clave para formalizar la parte socioeconómica de tu análisis, complementando directamente las ideas de Grok y los hallazgos de otros estudios.
+Se relaciona con: Marco Teórico del proyecto, Análisis de Factores Asociados (especialmente socioeconómicos), Modelado de Regresión (con enfoque explicativo TDS), Análisis Espacial (Moran's I, LISA), Manejo de Desafíos Metodológicos.","
+• [REFORZADO] Marco Teórico Específico: Teoría de la Desorganización Social (TDS) aplicada al robo urbano en México. MUY RELEVANTE para el componente socioeconómico del análisis, ofreciendo un marco teórico formalizado.
+• [REFORZADO] Operacionalización de Conceptos Clave de la TDS con Datos INEGI/CONEVAL (Nivel AGEB/Municipal): Pobreza Concentrada (GRS CONEVAL, pobreza por ingresos, desempleo), Heterogeneidad (proxy migratorio), Movilidad Residencial, Debilitamiento de Redes Sociales (proxies como hogares monoparentales). CRUCIAL para saber cómo medir los constructos de la TDS con tus datos. (Tabla 1 del informe es clave).
+• [REFORZADO] Ejemplos Prácticos de Estudios en México/Latinoamérica: Aplicación de Modelos de Regresión Lineal Múltiple/Logística y Análisis de Autocorrelación Espacial (Moran's I / Mapas LISA) en contextos similares. Se citan estudios específicos y sus hallazgos (relación pobreza/desigualdad, coeficientes de Gini, desempleo, hogares monoparentales).
+• [REFORZADO] Discusión de Desafíos Metodológicos y Soluciones Prácticas: Falacia ecológica, MAUP, alineación temporal de datos y estrategias para mitigarlos (usar nivel más granular, triangulación con cualitativo, análisis de sensibilidad, regresión espacial). MUY IMPORTANTE para el rigor de tu metodología.","Discute análisis a nivel AGEB y Municipal, y desafíos relacionados con la granularidad.",,https://docs.google.com/document/d/1I-C3kAnHn06Qh5K2LOB-IX9Y39PNdhsboUVzjMn37hk/edit?tab=t.0,Not started,
+F1-65,,Leido,No,"DeepR. Factores y Robo Metro CDMX ",Reporte Deep Research,Fuente de datos,Alta,"Este informe de investigación generado por Deep Research es una fuente muy valiosa para proporcionar un marco teórico y metodológico basado en la literatura científica sobre los factores (especialmente socioeconómicos) que contribuyen al robo en transporte público. Detalla la justificación teórica de variables como desempleo, educación, rezago social, densidad y pobreza, y sugiere modelos estadísticos (Regresión Lineal/Logística, ACP, Moran's I) para analizarlas, incluyendo ejemplos prácticos en Python/R. Complementa las ideas iniciales con un enfoque más estructurado y basado en la investigación.
+Se relaciona con: Marco Teórico del proyecto, Análisis de Factores Asociados (principalmente socioeconómicos), Modelado de Regresión, Análisis Espacial (Moran's I, LISA).","
+• [REFORZADO] Marco Teórico: Conexión entre factores socioeconómicos y crimen en transporte público (Strain Theory, Routine Activities, Social Disorganization Theory). MUY RELEVANTE como marco teórico para tu análisis de factores.
+• [REFORZADO] Identificación y Justificación Teórica de Variables Socioeconómicas Relevantes en Contexto Mexicano (Nivel AGEB/Municipal): Tasa de Desempleo (juvenil), Nivel Educativo, Grado de Rezago Social (GRS CONEVAL), Densidad Poblacional, Tasa de Pobreza (proxy). MUY RELEVANTE para justificar la inclusión de estas variables del Censo, CONEVAL, PNUD en tu análisis.
+• [REFORZADO] Modelos Estadísticos Clave para Analizar la Relación Socioeconómica y Robo:
+    ◦ Regresión Lineal Múltiple: Para predecir tasas de robo con factores socioeconómicos.
+    ◦ Regresión Logística: Para predecir probabilidad de zonas de alto riesgo.
+    ◦ Análisis de Componentes Principales (ACP): Para crear un índice de vulnerabilidad socioeconómica. Se menciona su utilidad y uso en estudios similares.
+    ◦ Análisis de Autocorrelación Espacial (I de Moran / Mapas LISA): Para comprender la agrupación geográfica del crimen y factores socioeconómicos.",,,https://docs.google.com/document/d/1TG0IDiWvL7vWTJd9mI5lGhuCIu3_lp_J3DGIu7x0UT4/edit?tab=t.0,Not started,
+F1-66,,Leido,No,Indices de rezago social IRS,informe Oficial (Gobierno),Fuente de datos,Media,"Contiene datos de rezago social cada 5 años excepto 2015; desde 2000, 2010",Contiene estos: https://www.coneval.org.mx/Medicion/Documents/IRS_2020/IRS_ent_mun_2000_2020.ziphttps://www.coneval.org.mx/Medicion/Documents/IRS_2020/IRS_loc_2000_2020.ziphttps://www.coneval.org.mx/Medicion/Documents/IRS_2020/IRS_loc_interior_entidades_2020.zip,"años, nacional, y por estados ",Cada 5 años desde 2000-2020,https://www.coneval.org.mx/Medicion/IRS/Paginas/Indice_de_Rezago_Social_2020_anexos.aspx,Not started,
+F1-67,,Leido,No,ndices de Rezago Social (IRS) a nivel Entidad Federativa y Municipio,informe Oficial (Gobierno),Fuente de datos,Alta,Indicadores de rezago social (porcentaje)Índice de rezago socialGrado de rezago socialLugar que ocupa en el contexto nacionalPoblación de 15 años o más analfabetaPoblación de 6 a 14 años que no asiste a la escuelaPoblación de 15 años y más con educación básica incompletaPoblación sin derechohabiencia a servicios de saludViviendas con piso de tierraViviendas que no disponen de excusado o sanitarioViviendas que no disponen de agua entubada de la red públicaViviendas que no disponen de drenajeViviendas que no disponen de energía eléctricaViviendas que no disponen de lavadoraViviendas que no disponen de refrigerador,"
+• Índice de Rezago Social (IRS)
+• Grado de Rezago Social
+• Lugar en Ranking Nacional (de rezago)
+• Población total
+• Población de 6 a 14 años que no asiste a la escuela
+• Población de 15 años o más analfabeta
+• Población de 15 años o más con educación básica incompleta
+• Población sin derechohabiencia a servicios de salud
+• Viviendas con piso de tierra
+• Viviendas que no disponen de excusado o sanitario
+• Viviendas que no disponen de agua entubada de la red pública
+• Viviendas que no disponen de drenaje
+• Viviendas que no disponen de energía eléctrica
+• Viviendas que no disponen de lavadora
+• Viviendas que no disponen de refrigerador
+• Entidad Federativa
+• Municipio","Entidades federativas, municipio","2000, 2005, 2010, 2015, 2020 (Cada 5 años)",https://www.coneval.org.mx/Medicion/Documents/IRS_2020/IRS_ent_mun_2000_2020.zip,Not started,
+F1-68,,Leido,No,Índices de Rezago Social (IRS) a nivel Localidad,informe Oficial (Gobierno),Fuente de datos,Media,Contiene indicadores de rezago social a nivel localidad. Útil para análisis de correlación entre rezago social y criminalidad/robo a nivel más granular. Limitado al año 2020.,"
+• Índice de Rezago Social (IRS)
+• Grado de Rezago Social
+• Lugar en Ranking Nacional (de rezago)
+• Población total
+• Población de 6 a 14 años que no asiste a la escuela
+• Población de 15 años o más analfabeta
+• Población de 15 años o más con educación básica incompleta
+• Población sin derechohabiencia a servicios de salud
+• Viviendas con piso de tierra
+• Viviendas que no disponen de excusado o sanitario
+• Viviendas que no disponen de agua entubada de la red pública
+• Viviendas que no disponen de drenaje
+• Viviendas que no disponen de energía eléctrica
+• Viviendas que no disponen de lavadora
+• Viviendas que no disponen de refrigerador
+• Entidad Federativa
+• Municipio","Entidades federativas, municipio",2020 (Únicamente),https://www.coneval.org.mx/Medicion/Documents/IRS_2020/IRS_loc_2000_2020.zip,Not started,
+F1-69,,Leido,No, IRS a nivel Localidad al interior de las Entidades Federativas,informe Oficial (Gobierno),Fuente de datos,Media," ""Datos disponibles cada 5 años (2000-2020). Contiene indicadores de rezago social a nivel localidad dentro de cada entidad federativa. Útil para análisis de correlación entre rezago social y criminalidad/robo a nivel granular, con datos históricos.”","
+• Índice de Rezago Social (IRS)
+• Grado de Rezago Social
+• Lugar en Ranking Nacional (de rezago)
+• Población total
+• Población de 6 a 14 años que no asiste a la escuela
+• Población de 15 años o más analfabeta
+• Población de 15 años o más con educación básica incompleta
+• Población sin derechohabiencia a servicios de salud
+• Viviendas con piso de tierra
+• Viviendas que no disponen de excusado o sanitario
+• Viviendas que no disponen de agua entubada de la red pública
+• Viviendas que no disponen de drenaje
+• Viviendas que no disponen de energía eléctrica
+• Viviendas que no disponen de lavadora
+• Viviendas que no disponen de refrigerador
+• Entidad Federativa
+• Municipio","Entidades federativas, municipio","2000, 2005, 2010, 2015, 2020 (Cada 5 años)",https://www.coneval.org.mx/Medicion/Documents/IRS_2020/IRS_loc_interior_entidades_2020.zip,Not started,
+F1-70,,Leido,No,"Pobreza por localidad urbana, 2020 (Formato .dta)",informe Oficial (Gobierno),Fuente de datos,Alta,"""Archivo en formato .dta (STATA). Datos de pobreza a nivel municipal. Requiere STATA, R, o Python con pyreadstat para su lectura. Contiene indicadores detallados de pobreza y vulnerabilidad. Incluye todos los municipios del país, por lo que es necesario filtrar para CDMX.”","
+• Población en situación de pobreza (%)
+• Población en situación de pobreza extrema (%)
+• Población en situación de pobreza moderada (%)
+• Vulnerable por carencias sociales (%)
+• Vulnerable por ingresos (%)
+• No pobre y no vulnerable (%)
+• Rezago educativo (%)
+• Carencia por acceso a los servicios de salud (%)
+• Carencia por acceso a la seguridad social (%)
+• Carencia por calidad y espacios de la vivienda (%)
+• Carencia por acceso a los servicios básicos en la vivienda (%)
+• Carencia por acceso a la alimentación (%)
+• Población con ingreso inferior a la línea de pobreza por ingresos (%)
+• Población con ingreso inferior a la línea de pobreza extrema por ingresos (%)
+• Municipio (implícito, ya que los datos están a nivel municipal)
+• Entidad Federativa (implícito, se puede inferir del municipio)","Municipios, pero estado se puede deducir","2010, 2015, 2020 (Cada 5 años)",https://www.coneval.org.mx/Medicion/Paginas/Programas_VCOMPL_mpal_2010-2020.aspx,Not started,
+F1-71,,Leido,No,Tasa de Desocupación Trimestral (INEGI),informe Oficial (Gobierno),Fuente de datos,Alta,Datos trimestrales de la tasa de desocupación a nivel nacional y estatal. Requiere filtrado para CDMX. Serie temporal desde 2016.”,"
+• Tasa de Desocupación
+• Entidad Federativa
+• Trimestre
+• Año|",Trimestral (2016 - 4to Trimestre 2024),2016-2024,https://www.inegi.org.mx/app/tabulados/default.html?nc=624&idrt=18&opc=t,Not started,
+F1-73,,Leido,No,Matriculación en Nivel Superior (CDMX),informe Oficial (Gobierno),Fuente de datos,Alta,Conteo anual de estudiantes matriculados en instituciones de nivel superior en la Ciudad de México. Serie temporal extensa (2000-2023) para análisis de tendencias. Nivel de agregación a confirmar (¿CDMX total?). Útil como indicador de capital humano y oportunidades educativas en la ciudad.”,Matrícula en Nivel Superio,CDMX total,Anual (2000 - 2023),https://visorestadistico.cdmx.gob.mx/,Not started,
+F1-74,,Leido,No,Escolaridad Promedio (CDMX y Nacional),informe Oficial (Gobierno),Fuente de datos,Alta,Años de Escolaridad Promedio (población 15+ años),"Años de escolaridad promedio de la población de 15 años y más en la Ciudad de México y a nivel nacional. Fuente: INEGI, Encuesta Nacional de Ocupación y Empleo (ENOE). Datos disponibles para varios años (especificar periodos al revisar la fuente ENOE). Nivel de agregación a  CDMX total, Indicador clave de nivel educativo y capital humano.",CDMX total,Anual (2010 - 2023),https://datos.cdmx.gob.mx/dataset/indicadores-monitor-estadistico-de-la-ciudad-de-mexico/resource/c6add09d-5383-4db9-8115-18c886efa8d4,Not started,
+F1-75,,Leido,No, Índice de Gini (CDMX),informe Oficial (Gobierno),Fuente de datos,Alta," Índice de Gini (desigualdad de ingresos)"," Índice de Gini (desigualdad de ingresos)",CDMX total,"Años discontinuos (2008, 2010, 2012, 2014, 2016, 2018, 2020, 2021)",https://datos.cdmx.gob.mx/dataset/indicadores-monitor-estadistico-de-la-ciudad-de-mexico/resource/e166a2f9-d4b1-4aed-beda-6a26f526b30d,Not started,
+F1-76,,Leido,No,PIB per cápita (CDMX),informe Oficial (Gobierno),Fuente de datos,Alta,"Producto Interno Bruto (PIB) per cápita para la Ciudad de México, medido en pesos. Serie temporal anual desde 2010 hasta 2022. Importante: No disponible a nivel de delegación/alcaldía, solo para CDMX en su conjunto. Indicador clave de nivel de desarrollo económico y riqueza promedio de la ciudad.""",PIB per cápita (en pesos),Solo temporal,nual (2010 - 2022),https://datos.cdmx.gob.mx/dataset/indicadores-monitor-estadistico-de-la-ciudad-de-mexico/resource/9d59ff83-57eb-4cfb-afc0-3a9f245dbc66,Not started,
+F1-77,,Leido,No,Grado promedio de escolaridad por delegación,informe Oficial (Gobierno),Fuente de datos,Alta,Esta en la pagina del pdf del link,Escolaridad por delegacion en años,Por delegacion,2020 solamente,https://www.inegi.org.mx/contenidos/programas/ccpv/2020/doc/cpv2020_pres_res_cdmx.pdf,Not started,
+F1-78,,Leido,No,"DEMARCACIONES TERRITORIALES CON MAYOR
+POBLACIÓN NACIDA EN OTRO PAÍS (Por delegacion)",informe Oficial (Gobierno),Fuente de datos,Alta,"Contiene datos por delegación de poblacion por numero nacida en otros países, TAMBIEN contamos con la poblacion total para calcular un porcentaje o algo similar BUSCANDO: “Por demarcacion”",Numero de personas nacidas en otros países,Por delegacion,2020 solamente,https://www.inegi.org.mx/contenidos/programas/ccpv/2020/doc/cpv2020_pres_res_cdmx.pdf,Not started,
+F1-80,,Leido,No,"Desempleo JUVENIL Datos de ",Noticia,Nota periodistica,"Baja, Media","Hace falta la fuente oficial ENVIPE no parece tener disponible facilmente las edades e intervalos que el articulo sugiere, ¿Sera prudente utilizar los datos del articulo? y esta fuente: https://politica.expansion.mx/cdmx/2021/08/29/desempleo-afecta-a-jovenes-de-la-cdmx-126-mil-desocupados-de-15-a-29-anos. Busque exhaustivamente y no parece existir ese nivel donde especifica el desempleo juvenil en la nota principal. Podria ser más relevante buscar datos de “NINIS “del video de YOUTUBE de I de Moran’s","—- Una simple nota periodistica con datos de desempleo juvenil, adicionalmente nos dio la fuente de datos para extraer el desempleo juvenil por año.",—,"
+• Temporal: Mensual.
+• Espacial: Ciudades de interés (incluye la Ciudad de México a nivel agregado y posiblemente por alcaldía en otros archivos). La desagregación por ""ciudades"" implica que para CDMX tendrás un valor agregado, no por alcaldía, a menos que otros archivos lo permitan.",https://politica.expansion.mx/cdmx/2021/08/29/desempleo-afecta-a-jovenes-de-la-cdmx-126-mil-desocupados-de-15-a-29-anos,Not started,
+F1-81,,Leido,No,"ENSU (ENCUESTA NACIONAL DE INSEGURIDAD URBANA) ",Conjunto de datos (CsV),Fuente de datos,Media,"Ya habiamos mencionado que puede ser util para realizar el bupchart de los lugares donde sienten más inseguridad los ciudadanos. Pero cabe destacar que mejor determinarlo en las notas del otro de los registros de esta misma base creo de ENVIPE.
+La ENSU del INEGI es una fuente esencial para nuestro proyecto, especialmente para la dimensión de percepción ciudadana sobre la seguridad y los cambios de hábitos. La disponibilidad de datos mensuales hasta marzo de 2025 para la percepción de seguridad en diversos espacios (incluido el transporte público) es muy valiosa para el análisis temporal y para construir el bump chart de los lugares más inseguros. Otros archivos identificados parecen contener datos relevantes sobre la percepción de problemas, el desempeño institucional, la atestiguación de delitos y los cambios de hábitos, enriqueciendo el análisis. Es importante revisar los archivos para confirmar si la desagregación por alcaldía está disponible en alguno de ellos para vincular con otros datos a nivel local.
+Relevancia para otros análisis:
+• Análisis de Percepción: Directamente alimenta los análisis de percepción de inseguridad y su evolución.
+• Análisis de Cambio de Hábitos: Permite cuantificar cómo la inseguridad afecta el comportamiento ciudadano.
+• Correlación con Robo: Los datos de percepción y hábitos pueden ser correlacionados con las tasas de robo (si la desagregación espacial/temporal lo permite).
+• Justificación del Problema: Los datos sobre si la inseguridad es un problema prioritario (archivo 9.Bas_problematicas...) pueden usarse para justificar la relevancia del proyecto.
+• Análisis de Desempeño Institucional: Los archivos sobre percepción de desempeño y confianza (8.Bas_percepcion..., 14.Bas_confianza...) son clave para esta sección.","
+• Distribución porcentual de la población de 18 años y más que reside en áreas urbanas (ciudades) de interés por Sensación de seguridad en espacio público (Casa, Trabajo, Calles, Escuela, Mercado, Centro comercial, Banco, Cajero automático, Transporte público, Automóvil, Carretera, Parque recreativo). CRUCIAL para el análisis de percepción de inseguridad en diferentes espacios, incluyendo el transporte público, y para construir el bump chart.
+• Otros archivos XLSX relevantes identificados:
+    ◦ 9.Bas_problematicas_percepcion_desempeno_gob_mar_2025_est.xlsx: Probablemente contenga datos sobre la percepción de los principales problemas en la ciudad y la valoración del desempeño de gobierno en distintos temas (seguridad incluida). Relevante para entender si la inseguridad es un problema prioritario y cómo se valora la gestión.
+    ◦ 8.Bas_percepcion_de_desempeno_mar_2025_est.xlsx: Similar al anterior, enfocado en la percepción del desempeño de las autoridades de seguridad. Relevante para la sección de desempeño institucional.
+    ◦ 6.Bas_fuentes_informacion_seguridad_publica_mar_2025_est.xlsx: Podría indicar de dónde obtiene la población información sobre seguridad. Menos prioritario, pero puede dar contexto.
+    ◦ 5.Bas_conflictos_o_enfrentamientos_mar_2025_est.xlsx: Podría contener datos sobre la atestiguación de conflictos o delitos en el entorno. Relevante para la sección de atestiguación.
+    ◦ 4.Bas_cambio_de_habitos_mar_2025_est.xlsx: Contiene datos sobre los cambios de hábitos por temor a ser víctima (salir de noche, usar joyas, etc.). MUY RELEVANTE para la sección de cambio de hábitos y entender cómo la inseguridad impacta el comportamiento.
+    ◦ 3.Bas_atestiguacion_mar_2025_est.xlsx: Probablemente contenga datos sobre qué delitos o conductas antisociales ha atestiguado la población. Relevante para la sección de atestiguación.
+    ◦ 2.Bas_expectativas_mar_2025_est.xlsx: Podría contener datos sobre las expectativas futuras de seguridad. Menos prioritario, pero puede dar contexto.
+    ◦ 14.Bas_confianza_niveles_gob_mar_2025_est.xlsx: Percepción de confianza en diferentes niveles de gobierno. Relevante para la sección de desempeño institucional.
+    ◦ 10.Bas_conocimiento_acciones_gob_mar_2025_est.xlsx: Podría indicar si la población conoce las acciones de gobierno en seguridad. Menos prioritario.","
+• Temporal: Mensual.
+• Espacial: Ciudades de interés (incluye la Ciudad de México a nivel agregado y posiblemente por alcaldía en otros archivos). La desagregación por ""ciudades"" implica que para CDMX tendrás un valor agregado, no por alcaldía, a menos que otros archivos lo permitan."," Los datos están disponibles mensualmente hasta marzo de 2025. Proporciona una serie temporal muy reciente. Se tienen que descargar los diferentes csvs para hacer operaciones de union de todos los años con los datos ","https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/ensu/ENSU20205_RR_04.pdf#:~:text=Al%20desagregar%20por%20sexo%20para,ver%20gr%C3%A1fica%205",Not started,
+F1-83,,Leido,No,íctimas del Fuero Común (SESNSP),Conjunto de datos (CsV),,Alta,"Contiene datos oficiales de víctimas de delitos del fuero común a nivel mensual y por entidad federativa. Permite desagregar por bien jurídico, tipo y subtipo de delito, modalidad, sexo y rango de edad de la víctima. Es una fuente clave para análisis descriptivos y temporales del robo en el Metro a nivel CDMX, especialmente para entender la evolución del perfil de las víctimas.","Las columnas del CSV: Año, Clave_Ent, Entidad, Bien jurídico afectado, Tipo de delito, Subtipo de delito, Modalidad, Sexo, Rango de edad, Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre. MUY relevante para el análisis detallado de las víctimas de delitos del fuero común, incluyendo la identificación de categorías específicas de robo (como el del Metro) y el perfil de las víctimas.","
+• Temporal: Mensual.
+• Espacial: Entidad federativa."," 2015 - marzo 2025.",https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-delictiva,Not started,Excel/Csv
+F1-84,,Leido,No," Incidencia Delictiva Federal (SESNSP)",Conjunto de datos (CsV),,Media,"Contiene datos oficiales de incidencia de delitos federales a nivel mensual y por entidad federativa. Útil para entender la carga de delitos federales en la CDMX como contexto, aunque el enfoque principal del proyecto esté en delitos del fuero común como el robo en el Metro.","Las columnas del CSV: Año, Clave_Ent, Entidad, Bien jurídico afectado, Tipo de delito, Subtipo de delito, Modalidad, Sexo, Rango de edad, Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre. Contiene datos oficiales de incidencia de delitos federales a nivel mensual y por entidad federativa. Menos relevante directamente para el robo en el Metro (que es fuero común), pero útil para tener contexto sobre el panorama de seguridad federal en la CDMX.","
+• Temporal: Mensual.
+• Espacial: Entidad federativa.",2012 - marzo 2025.,https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-delictiva,Not started,
+F1-85,,Leido,No,Tabla 33 Informe de movilidad EVALUA paj. 131,Conjunto de datos (CsV),Fuente de datos,Alta,"Tabla específica del Informe Movilidad EVALUA que presenta datos agregados del robo en transporte público vía denuncias en FGJCDMX a lo largo de los años. Útil para análisis de tendencias a nivel general de la ciudad.  La Tabla 33, que muestra un historial de robos en transporte público vía denuncias, es un dato agregado importante. La referencia a una crosstable hora-año para ocurrencias de robo también es interesante, aunque la posible ambigüedad entre hora de robo y hora de denuncia es una limitación. El documento refuerza la importancia de explorar los datos de la FGJCDMX para obtener información más granular (por estación). CABE ACLARAR que parece un buena muestra de la precisión de los datos de la FGJCDMX, pero hace falta explorar que csv contiene este nivel de detalle (horas).",: Columnas de la Tabla 33 (Historial de robos en el transporte público vía denuncias en la FGJCDMX). Relevante para un análisis temporal agregado del robo en transporte público a nivel CDMX. Por closstable con numero de robos por hora y año,"
+• Temporal: Anual.
+• Espacial: Ciudad de México total.",Desde 2012 hasta primer semestre de 2023 (según el pasaje).,,Not started,
+F1-88,,Leido,No,"Conversación con IA (Grok) sobre Argumentos Estadísticos, Pobreza, Desigualdad y Crimen",Reporte Deep Research,Fuente de datos,Alta,"
+Esta conversación con la IA (Grok) ha generado importantes reflexiones y líneas de investigación. En particular, la crítica a argumentos estadísticos simplistas y la discusión detallada sobre la compleja relación entre pobreza, desigualdad y crimen. Las ideas sobre los matices (desigualdad vs. pobreza, contexto socioeconómico) y las referencias a estudios específicos (como el de Carrillo-Sagástegui et al. sobre México y los datos del FBI) son de gran valor. Esta fuente servirá como guía conceptual y para generar hipótesis en la parte del análisis socioeconómico del robo en el Metro. Se recomienda explorar y registrar formalmente las fuentes citadas por la IA para su uso directo en el proyecto.
+Análisis Potenciales Sugeridos (inspirados en esta conversación):
+• Explorar la correlación entre el robo en el Metro (por estación/alcaldía) y el Índice de Desarrollo Social (IDS), pero también buscar datos más específicos de desigualdad (como el coeficiente de Gini) para las alcaldías o zonas de influencia de las estaciones, si están disponibles.
+• Revisar la literatura académica citada por Grok y el estudio de Carrillo-Sagástegui et al. para adoptar un marco teórico más robusto para el análisis socioeconómico, en lugar de depender únicamente de la teoría de la desorganización social (si no te sientes cómodo con ella).
+• Ser crítico con los datos de victimización y la posible cifra negra, recordando los sesgos y la importancia de definir operativamente las variables.","
+• Crítica al argumento del ""15% de X causa el 50% de los problemas"" (falta de definición operativa, sesgo de observación, ausencia de causalidad, generalización, factores externos). Relevante para mantener rigor científico al interpretar cualquier dato, incluyendo los de robo en el Metro.
+• Discusión sobre la relación entre pobreza, desigualdad y crimen, con matices importantes (desigualdad > pobreza, contexto socioeconómico, tipo de crimen, factores culturales, crimen organizado). FUNDAMENTAL para el componente socioeconómico de tu análisis.
+• Referencia a datos del FBI (UCR) y su interpretación, incluyendo la sobrerrepresentación y los sesgos.
+• Idea principal a explorar: La desigualdad económica como un factor potencialmente más influyente en ciertos tipos de delitos (como el robo) que la pobreza absoluta.",NA,NA,,Not started,
+F1-89,,Leido,No,"La relación entre desigualdad y crimen en el contexto de los estados con mayor pobreza en México: los casos de Guerrero, Oaxaca y Chiapas (Carrillo-Sagástegui et al., 2022)",Respuesta Adademica,Fuente de datos,Alta,"
+• Este artículo académico es una fuente extremadamente valiosa para el marco teórico de tu proyecto, especialmente en lo referente al análisis de la relación entre desigualdad, pobreza y delincuencia. La distinción de Roemer (1993) sobre los tipos de desigualdad y la hipótesis de que la desigualdad relativa puede tener un impacto más significativo en el crimen que la pobreza absoluta son ideas clave a considerar. Aunque el estudio se enfoca en Guerrero, Oaxaca y Chiapas, su metodología y conclusiones pueden inspirar tu análisis para la CDMX. La idea de que la falta de oportunidades intermedias, y no solo la pobreza extrema, puede empujar a la delincuencia es un matiz importante.
+Análisis Potenciales Sugeridos (inspirados en este estudio):
+    ◦ Adaptar el marco teórico: Utilizar las ideas de Roemer y las conclusiones del estudio sobre la desigualdad como un marco para analizar la relación entre el Índice de Desarrollo Social (o datos más específicos de desigualdad si se encuentran) y el robo en el Metro por alcaldía/estación.
+    ◦ Buscar datos de desigualdad para CDMX: Intentar encontrar datos del coeficiente de Gini u otros indicadores de desigualdad a nivel alcaldía o colonia para la CDMX y correlacionarlos con los datos de robo en el Metro.
+    ◦ Comparar resultados: Si bien los contextos son diferentes, se podría hacer una comparación conceptual de los hallazgos de este estudio con los que obtengas para la CDMX.
+","
+• Marco teórico sobre desigualdad (Roemer) y su relación con el crimen. Muy relevante para tu análisis socioeconómico.
+• Distinción entre el impacto de la desigualdad y la pobreza en la delincuencia.
+• Datos de homicidios y robos en municipios de Guerrero, Oaxaca y Chiapas y su relación con el coeficiente de Gini y la pobreza. Aunque no son de CDMX, sirven como estudio de caso y referencia metodológica.
+• Idea central: La desigualdad puede ser un predictor más fuerte de ciertos tipos de delitos que la pobreza absoluta. La falta de oportunidades intermedias también es un factor.","• Temporal: No especificado en tu resumen, pero el artículo cubrirá un periodo específico para los datos que analiza.
+• Espacial: Estados de Guerrero, Oaxaca y Chiapas (a nivel municipal).",Artículo publicado en 2022 (los datos que analiza serán anteriores),https://dialnet.unirioja.es/servlet/articulo?codigo=8789010,Not started,
+F1-90,,Leido,No,Ideas de Análisis para el Proyecto de Robo en el Metro CDMX,Respuesta Adademica,,Alta,Revisa el contenido del registro ABRIENDOLO en la sección de titulo.,"Texto completo: Resumen
+Este registro consolida todas las ideas de análisis y modelado que han surgido para el proyecto de análisis del robo en el Metro de la Ciudad de México. El objetivo es organizar las ideas por tipo y complejidad, facilitando la planificación y ejecución del análisis.
+Metodologías y Herramientas Potenciales:
+• Análisis Descriptivo: Tablas de frecuencia, estadísticas descriptivas, visualizaciones (gráficos de barras, líneas, mapas de calor, bump charts).
+• Análisis de Correlación: Para explorar relaciones entre variables (ej. robo y afluencia, robo e IDS).
+• Pruebas de Hipótesis: Para evaluar afirmaciones específicas (ej. impacto del COVID en el robo).
+• Modelado de Regresión: Lineal simple, lineal múltiple, polinomial (para capturar tendencias no lineales y puntos de inflexión).
+• Modelado de Series Temporales: ARIMA, ARIMAX (para incorporar variables exógenas), Prophet (especialmente bueno para datos con estacionalidad fuerte y tendencias).
+• Análisis Espacial: Mapas de calor, análisis de buffers, Índice de Moran (para autocorrelación espacial).
+• Software/Lenguajes: Python (con librerías como Pandas, Geopandas, Statsmodels, Scikit-learn, Prophet), QGIS o ArcGIS para análisis SIG.
+Prioridades:
+1. Análisis descriptivo robusto y actualizado del robo en el Metro por estación y línea.
+2. Análisis de correlación entre robo, afluencia e indicadores socioeconómicos (IDS).
+3. Modelado predictivo (ARIMA/ARIMAX/Prophet) del robo en el Metro por estación/línea.
+CONTENIDO
+
+• Este registro consolida todas las ideas de análisis y modelado para el proyecto, con énfasis en la integración de datos de victimización, afluencia, percepción y factores socioeconómicos para entender el robo en el Metro CDMX. Se busca integrar hallazgos de fuentes oficiales, inspiración de blogs de científicos de datos y discusiones conceptuales. Se priorizarán análisis que puedan realizarse con la granularidad espacial y temporal disponible, especialmente a nivel de estación/línea del Metro y alcaldía/AGEB para factores socioeconómicos.
+Fuentes Clave Integradas (recordatorio):
+    ◦ FGJ Carpetas/Víctimas (granularidad Metro/estación, hasta 2024/2025), SESNSP Víctimas Fuero Común, SHP Metro, STC Metro Afluencia Diaria (por estación/línea, 2010-2025), INEGI Censo Población (por alcaldía, 1990-2020), INEGI Censo Empleo (por AGEB, 2020), EVALUA IDS (Alcaldía/Colonia), PNUD IDH/IDG (Alcaldía), CONAPO Índice de Marginación (AGEB), ENSU (CDMX/Regiones, hasta marzo 2025), ENCIG, Blog Dátil, Scispace Research.
+Catálogo de Ideas de Análisis por Complejidad:
+Nivel 1: Descriptivo y Exploratorio (Base del Análisis)
+    1. Magnitud y Tendencia General del Robo en el Metro (CDMX):
+        ▪ Tipo: Descriptivo, Temporal.
+        ▪ Descripción: Número total de robos (víctimas y/o carpetas de investigación de FGJ y SESNSP) en el sistema Metro CDMX. Evolución anual y mensual (2015-2025).
+        ▪ Variables Clave: Datos de robo en Metro (FGJ, SESNSP), Fecha.
+        ▪ Visualización: Gráficos de líneas, tablas resumen.
+        ▪ Complejidad: Baja-Media.
+    2. Identificación de Puntos Calientes (Estaciones y Líneas) y Mapas Temáticos:
+        ▪ Tipo: Descriptivo, Espacial.
+        ▪ Descripción: Ranking de estaciones y líneas con mayor número de robos. Calcular tasas de robo por estación (robos/afluencia). Adaptar el análisis de ""Líneas de rutas de transporte público (color proporcional al robo)"" del blog de Dátil, utilizando los datos de ""Líneas y Estaciones de STC Metro (SHP)"" y las carpetas de investigación de FGJ para crear mapas específicos y detallados del Metro, mostrando tramos de línea o estaciones con mayor incidencia.
+        ▪ Variables Clave: Datos de robo FGJ por estación, Datos de afluencia STC Metro por estación, SHP de estaciones y líneas del Metro.
+        ▪ Visualización: Mapas de calor, mapas coropléticos de estaciones, gráficos de barras.
+        ▪ Complejidad: Media (requiere unión de datos y SIG/Geopandas).
+    3. Patrones Temporales Detallados del Robo en el Metro:
+        ▪ Tipo: Descriptivo, Temporal.
+        ▪ Descripción: Análisis de la distribución de robos por mes del año, día de la semana y hora del día (si la granularidad de FGJ lo permite). Confirmar o refinar los hallazgos del blog de Dátil y del informe EVALUA (picos a fin de año, mañanas).
+        ▪ Variables Clave: Datos de robo FGJ (con fecha/hora), Datos de ENVIPE/ENSU (percepción por hora).
+        ▪ Visualización: Gráficos de barras, boxplots por hora/día, heatmaps de hora vs. día.
+        ▪ Complejidad: Media.
+    4. Perfil de las Víctimas y Características del Delito de Robo en el Metro:
+        ▪ Tipo: Descriptivo.
+        ▪ Descripción: Características de las víctimas (sexo, edad) y del delito (uso de violencia, tipo de arma, número de delincuentes) en robos en el Metro. (Fuentes: FGJ si tiene detalle, SESNSP Víctimas Fuero Común para ""robo en transporte"", ENVIPE para contexto).
+        ▪ Variables Clave: Datos de FGJ/SESNSP/ENVIPE (Sexo, Rango de edad, Modalidad, Tipo de delito).
+        ▪ Visualización: Tablas, gráficos de pastel, barras.
+        ▪ Complejidad: Media (depende del nivel de detalle de FGJ).
+    5. Análisis de Cifra Negra para Robo en Transporte Público/Metro:
+        ▪ Tipo: Descriptivo.
+        ▪ Descripción: Estimar la proporción de robos no denunciados en el Metro o transporte público general. (Fuente: ENVIPE, comparando con FGJ).
+        ▪ Variables Clave: Datos de victimización ENVIPE, Datos de denuncias FGJ.
+        ▪ Complejidad: Media.
+Nivel 2: Comparativo y Correlacional (Entendiendo Relaciones)
+    1. Robo en Metro vs. Otros Medios de Transporte y Vía Pública:
+        ▪ Tipo: Comparativo.
+        ▪ Descripción: Comparar tasas de incidencia/victimización del robo en Metro con Metrobús, taxi, microbús/pesero, CETRAM y robo a transeúnte a nivel CDMX y por alcaldía (calculando tasas por 100k habitantes).
+        ▪ Variables Clave: Datos de robo FGJ (Metro, Metrobús, CETRAM), datos de ENVIPE (robo en transporte público, robo a transeúnte), Población por alcaldía (INEGI, extrapolada).
+        ▪ Visualización: Gráficos de barras comparativos, tablas.
+        ▪ Complejidad: Media.
+    2. Bump Chart de Percepción de Inseguridad en Espacios Públicos:
+        ▪ Tipo: Descriptivo, Temporal, Comparativo.
+        ▪ Descripción: Visualizar cómo ha cambiado el ranking de percepción de inseguridad del transporte público (incluyendo Metro) frente a otros espacios a lo largo de los años, usando los datos mensuales de ENSU hasta 2025. (Fuente: ENSU, Informe Movilidad EVALUA).
+        ▪ Variables Clave: Datos de percepción de inseguridad por espacio (ENSU).
+        ▪ Visualización: Bump chart.
+        ▪ Complejidad: Media.
+    3. Análisis de Correlación: Robo en Metro vs. Afluencia de Pasajeros:
+        ▪ Tipo: Correlacional.
+        ▪ Descripción: Analizar la relación entre el número de robos por estación/línea y la afluencia diaria/mensual.
+        ▪ Variables Clave: Datos de robo FGJ por estación/línea, Datos de afluencia STC Metro por estación/línea.
+        ▪ Presentación: Coeficientes de correlación (r, valor p), diagramas de dispersión.
+        ▪ Complejidad: Media.
+    4. [PRIORITARIO - IDEA 1 DE GROK, ACTUALIZADO] Análisis de Correlación: Robo en Metro vs. Desigualdad Socio-Espacial Local:
+        ▪ Tipo: Correlacional, Socioeconómico, Espacial.
+        ▪ Descripción: Investigar la relación entre la incidencia de robo en estaciones del Metro y los indicadores socioeconómicos de sus áreas de influencia (colonias o, preferiblemente, AGEBs). Enfoque en:
+            • Índice de Marginación de CONAPO (a nivel AGEB): Esta es la variable socioeconómica más granular y directamente relacionable con las estaciones.
+            • Índice de Desarrollo Social (IDS - EVALUA CDMX): A nivel colonia (si se puede vincular a estación) o alcaldía.
+            • Componentes del IDH (PNUD), especialmente el subíndice de ingreso: A nivel alcaldía para un contexto más amplio.
+            • Características de empleo (Censo 2020 AGEB): Con cautela, dado los hallazgos de Scispace, pero la granularidad AGEB es útil para explorar (ej. % población desocupada en AGEBs cercanas).
+        ▪ Variables Clave: Datos de robo FGJ por estación, SHP Metro, SHP Colonias/AGEBs, Índice de Marginación CONAPO (AGEB), IDS EVALUA (Colonia/Alcaldía), IDH PNUD (Alcaldía), Censo Empleo AGEB.
+        ▪ Visualización: Mapas temáticos bivariados (ej. robo y marginación), diagramas de dispersión.
+        ▪ Presentación: Coeficientes de correlación, resultados de regresión simple si se explora.
+        ▪ Complejidad: Media-Alta.
+    5. [OPCIONAL/CONTEXTUAL] Relación Robo en Metro vs. Percepción de Inseguridad (Nivel Agregado):
+        ▪ Tipo: Correlacional.
+        ▪ Descripción: Explorar si alcaldías con mayor tasa de robo en el Metro (agregado) también presentan mayor percepción de inseguridad en transporte público según ENSU (datos a nivel CDMX/Región).
+        ▪ Variables Clave: Datos de robo FGJ agregados por alcaldía, Datos de percepción ENSU (CDMX/Región).
+        ▪ Complejidad: Media (limitado por la diferencia en granularidad espacial).
+    6. Prueba de Hipótesis: Impacto del COVID-19 en Robos y Afluencia en el Metro:
+        ▪ Tipo: Inferencial.
+        ▪ Descripción: Evaluar cambios significativos en tasas de robo y afluencia durante la pandemia.
+        ▪ Variables Clave: Datos de robo FGJ, Datos de afluencia STC Metro, Fechas COVID.
+        ▪ Complejidad: Media.
+Nivel 3: Modelado Predictivo y Explicativo
+    1. Modelos de Regresión (Lineal Simple/Polinomial/Múltiple, Regresión para Conteos):
+        ▪ Tipo: Predictivo, Explicativo.
+        ▪ Descripción: Modelar el número de robos (o tasa) por estación/línea.
+            • Principal Predictor: Afluencia.
+            • Otros predictores a explorar (si la temporalidad y granularidad lo permiten): Características de la estación (tipo, transbordos - si se consiguen), indicadores socioeconómicos del entorno (Marginación AGEB, IDS/IDH anual extrapolado).
+        ▪ Variables Clave: Datos de robo FGJ, Afluencia STC Metro, SHP Metro/AGEB, Índice de Marginación CONAPO, IDS/IDH (extrapolados).
+        ▪ Presentación: Coeficientes (β), R², valores p.
+        ▪ Complejidad: Media-Alta.
+    2. [PRIORITARIO - IDEA 3 DE GROK, ADAPTADO] Pobreza Multidimensional (CONEVAL) y Tipología de Robos en Metro:
+        ▪ Tipo: Explicativo, Socioeconómico.
+        ▪ Descripción: Si los datos de FGJ permiten un desglose de la modalidad o tipo de robo en el Metro (ej. con violencia, sin violencia, carterismo, robo de celular), analizar si las alcaldías con diferentes perfiles de carencias (según Pobreza Multidimensional de CONEVAL, que es a nivel municipal/alcaldía) presentan una mayor proporción de ciertos tipos de robo en sus estaciones de Metro.
+        ▪ Variables Clave: Datos de robo FGJ (con desglose de modalidad si existe), CONEVAL Pobreza Multidimensional (por alcaldía).
+        ▪ Metodología: Tablas de contingencia, pruebas de chi-cuadrado, o modelos de regresión logística/multinomial si se quiere modelar la probabilidad de un tipo de robo.
+        ▪ Complejidad: Alta (depende críticamente del detalle en los datos de FGJ y de la vinculación con CONEVAL).
+    3. Modelos de Series Temporales (ARIMA, ARIMAX, Prophet) para Robo en el Metro:
+        ▪ Tipo: Predictivo (Forecasting).
+        ▪ Descripción: Pronosticar robos en el Metro (total CDMX, por línea, estaciones clave) hasta 2026. Usar afluencia como principal variable exógena.
+        ▪ Variables Clave: Serie temporal de robos (FGJ 2015-2025), Afluencia (STC Metro 2010-2025).
+        ▪ Complejidad: Media-Alta.
+Nivel 4: Análisis Espacial Avanzado y Temas Específicos (Potenciales Extensiones)
+    1. Análisis de Clusters de Riesgo en el Metro (Adaptación de Dátil):
+        ▪ Tipo: Espacial, Exploratorio.
+        ▪ Descripción: Utilizar algoritmos de clustering en los datos de robo georreferenciados por estación.
+        ▪ Variables Clave: Datos de robo por estación (FGJ), Coordenadas de estaciones (SHP).
+        ▪ Complejidad: Alta.
+    2. Índice de Moran (Autocorrelación Espacial del Robo y Factores Socioeconómicos):
+        ▪ Tipo: Espacial, Inferencial.
+        ▪ Descripción: Medir si el robo por estación se agrupa espacialmente y si las variables socioeconómicas (Marginación AGEB) también lo hacen. Explorar LISA bivariado para co-localización.
+        ▪ Variables Clave: Datos de robo por estación (FGJ), Índice de Marginación CONAPO (AGEB), SHP Metro/AGEB.
+        ▪ Complejidad: Alta.
+    3. [Secundario/Exploratorio - Idea Grok] Análisis Exploratorio del Efecto de la Gentrificación.
+    4. [Secundario/Exploratorio - Idea Grok] Análisis Exploratorio del Impacto de Políticas Sociales.
+    5. [Secundario/Exploratorio - Idea Grok] Análisis Exploratorio de Tecnología y Desigualdad en Seguridad del Metro.
+Inspiración Metodológica (Recordatorio):
+    ◦ Blog de Dátil (José Antonio Sánchez): Código y métodos para análisis espacial/temporal.
+    ◦ Scispace Research y conversación con Grok: Marco teórico, factores socioeconómicos.
+    ◦ Estudios académicos citados.",,,,Not started,
+F1-91,,Leido,No,Mapa IDH y Subíndices (PNUD México),Respuesta Adademica,Fuente de datos,Alta,"Esta fuente del PNUD es esencial para incorporar indicadores de desarrollo humano y desigualdad a nivel municipal (alcaldías de CDMX) en nuestro análisis. El IDH y sus subíndices, así como el IDG y sus componentes, ofrecen variables socioeconómicas ricas para correlacionar con los datos de robo en el Metro por alcaldía. Complementa la información del IDS de EVALUA con un enfoque de desarrollo humano más amplio. Es fundamental verificar la disponibilidad temporal de estos datos en la plataforma del PNUD para asegurar su compatibilidad con el periodo de análisis del robo (2018-2024/2025).
+Cómo se relaciona con otros análisis:
+• Análisis de Correlación con Robo: Crucial para el análisis de factores asociados (Relación con IDS/Desigualdad). Permite cuantificar la relación entre robo por alcaldía y diferentes aspectos del desarrollo humano y la desigualdad.
+• Modelado de Regresión Múltiple/ARIMAX/Prophet: Si la temporalidad de los datos del PNUD permite su inclusión, estos índices pueden ser variables exógenas importantes en modelos predictivos del robo a nivel alcaldía o agregando los datos a un nivel compatible.","
+• Índice de Desarrollo Humano (IDH) general: A nivel municipal (y estatal). MUY relevante para cruzar con datos de robo por alcaldía y explorar la relación entre el nivel de desarrollo humano y la incidencia del robo.
+• Subíndice de educación, ingreso y salud: Componentes del IDH. Permiten desglosar qué aspecto del desarrollo humano podría estar más relacionado con el robo. El subíndice de ingreso es particularmente interesante para la hipótesis de la desigualdad.
+• Índice de Desigualdad de Género (IDG) municipal: Mide la desigualdad entre hombres y mujeres en empoderamiento, mercado laboral y salud reproductiva. Relevante si quieres explorar la dimensión de género en el contexto socioeconómico del robo en el Metro.
+• Índice de Empoderamiento, Índice de Mercado Laboral, Índice de Salud Reproductiva: Componentes del IDG (indices secundarios, se podrían generalizar mejor en su conjunto con con los de IDG).","  ◦ Temporal: Necesitas verificar los años disponibles para cada índice (mencionaste 15 de Mayo de 2024 como fecha de estudio, pero los datos subyacentes pueden ser de años anteriores, ej. 2020 como en el caso del IDS de EVALUA).
+    ◦ Espacial: Municipal (incluye alcaldías de CDMX), Estatal.
+• ",,"https://pad.undp.org.mx/indice-de-desarrollo-humano#:~:text=Mapa%20interactivo%20de%20Desarrollo%20Humano%20que%20ofrece%20informaci%C3%B3n,as%C3%AD%20como%20de%20los%20indicadores%20que%20los%20componen.",Not started,
+F1-92,,Leido,No,Características de empleo de la población AGEB (Censo 2020 - INEGI),Respuesta Adademica,Fuente de datos,Alta,"
+Este dataset del Censo de Población y Vivienda 2020 del INEGI es una fuente esencial de variables socioeconómicas para nuestro proyecto, particularmente por su alta desagregación espacial a nivel de AGEB. La información sobre las características de empleo de la población (PEA, PNEA, ocupada, desocupada) proporciona indicadores directos sobre la situación económica y del mercado laboral en zonas geográficas pequeñas.
+Cómo se relaciona con otros análisis:
+    ◦ Correlación con Robo en el Metro por Estación/Área de Influencia: Permite analizar si existe una relación entre la incidencia de robo en el Metro (en estaciones o áreas de influencia de estaciones) y las características de empleo de la población en las AGEBs correspondientes.
+    ◦ Análisis Espacial Bivariado (LISA): Combinado con la información geográfica de las estaciones del Metro y los datos de robo, este dataset es ideal para realizar análisis de autocorrelación espacial bivariada (LISA) para identificar agrupaciones espaciales donde coexisten altas tasas de robo y altos índices de desocupación, por ejemplo. Esto es similar a la idea de ""ninis"" que mencionaste, pero con datos censales más amplios.
+    ◦ Modelado de Regresión (si la temporalidad lo permite): Aunque los datos del Censo son estáticos de 2020, pueden usarse en modelos de regresión para ese año o para periodos cercanos si se asume que las características de empleo no cambiaron drásticamente. Si se encuentra información más reciente sobre empleo por AGEB de otras fuentes, se podría enriquecer un modelo predictivo.
+    ◦ Complementa el análisis con IDS/IDH: Ofrece una perspectiva más detallada de las condiciones socioeconómicas a nivel local, complementando los índices agregados por alcaldía (IDS/IDH).
+Es fundamental obtener la geometría (archivos SHP o similar) de las AGEBs de la CDMX para poder vincular espacialmente este dataset con los datos de robo y las estaciones del Metro.
+• ","
+• 
+    ◦ Población económicamente activa (PEA): Personas de 12 años o más que trabajaron o buscaron trabajo en un periodo de referencia.
+    ◦ Población no económicamente activa (PNEA): Personas de 12 años o más que no trabajaron ni buscaron trabajo.
+    ◦ Población ocupada: Personas de 12 años o más que trabajaron.
+    ◦ Población desocupada: Personas de 12 años o más que no trabajaron pero buscaron trabajo.
+    ◦ Desagregación por sexo: Permite analizar diferencias de empleo por género.
+    ◦ Desagregación por Alcaldía, Localidad y AGEB: CRUCIAL para el análisis espacial y socioeconómico detallado. La desagregación por AGEB es la más granular y permite una vinculación más precisa con las áreas de influencia de las estaciones del Metro.
+• ","◦ Temporal: Estática (Los datos son del Censo 2020).
+    ◦ Espacial: Por AGEB (dentro de localidades y alcaldías).
+• ",Los datos reflejan la situación en marzo de 2020 (momento de la realización del Censo).,https://datos.cdmx.gob.mx/dataset/caracteristicas-de-empleo-de-la-poblacion-ageb-censo-2020,Not started,
+F1-94,,Leido,No," Población por Alcaldía (INEGI Censo 1990-2020)
+",Respuesta Adademica,Fuente de datos,Alta,"Este dataset proporciona conteos de población a nivel de alcaldía para los años censales. Es crucial para calcular tasas de incidencia y victimización por 100,000 habitantes, lo cual es un paso necesario para realizar comparaciones precisas de la delincuencia entre alcaldías de la CDMX, como se destaca en el blog de José Antonio Sánchez. Dado que los datos son decenales y tu análisis de robo es más reciente (2018-2024/2025), será necesario predecir o extrapolar la población para los años intermedios y posteriores a 2020. Esto se puede hacer con modelos simples de series temporales aplicados a la serie histórica de población por alcaldía.
+Cómo se relaciona con otros análisis:
+• Análisis Descriptivo: Permite calcular tasas de robo, victimización, cifra negra, etc., por 100,000 habitantes por alcaldía.
+• Análisis Comparativo: Fundamental para comparar la ""prevalencia real"" de delitos (corregida por tamaño de población) entre alcaldías.
+• Análisis de Factores Asociados: Las tasas por alcaldía pueden usarse para correlacionar el robo con otros indicadores a nivel alcaldía (IDS, IDH).
+• Modelado: La población (o la tasa por 100k hab.) puede ser una variable exógena relevante en modelos de regresión o series temporales (si se predice/extrapola la población para los años necesarios).","Población total por Alcaldía: Conteo de habitantes en cada alcaldía de la CDMX. ESENCIAL para calcular tasas de delitos (por 100,000 habitantes) y permitir comparaciones precisas entre alcaldías, como se menciona en el blog de Dátil."," 
+• Temporal: Decenal (Cada 10 años, en los años censales).
+• Espacial: Por Alcaldía.","1990, 2000, 2010, 2020.",https://datos.cdmx.gob.mx/dataset/poblacion-total-y-tasa-de-crecimiento-media-anual-1990-2020-por-alcaldia,Not started,
+F1-96,,Leido,No,"Forecasting at scale (Taylor & Letham, 2017) - Modelo Prophet",,,,"Este es el artículo técnico original donde se presenta el modelo Prophet. Es una fuente esencial si planeas utilizar Prophet para pronosticar el robo en el Metro, ya que te proporciona la base teórica y la justificación del modelo. Te ayudará a comprender mejor los parámetros del modelo, cómo interpretar sus resultados y cuándo es una opción adecuada (series temporales con estacionalidad marcada, datos faltantes, cambios de tendencia).","• Descripción técnica y justificación del modelo Prophet de Facebook. FUNDAMENTAL si decides utilizar este modelo predictivo. Explica cómo funciona, sus supuestos y para qué tipo de series temporales es más adecuado.
+• Discusión sobre el forecasting a escala y en series temporales con estacionalidad fuerte.",,,: https://doi.org/10.7287/peerj.preprints.3190v2,Not started,
+F1-97,,Parcialmente,No,"Enhancing Transportation Safety through AI-Driven Crime Prediction in Urban Environments (Yang, 2024)",,,,"Este resumen de conferencia es una fuente muy relevante y de vanguardia para tu proyecto. Propone el uso de técnicas de IA y estadísticas espaciales para la predicción de crimen en transporte urbano. Confirma la importancia de usar datos históricos de crimen y transporte (afluencia). Más importante, valida tu interés en análisis espaciales avanzados (GIS, Spatial Statistics) y sugiere el uso de métodos como ST-Cokriging (una técnica de interpolación espacio-temporal) y Machine Learning/AI para la predicción. Te proporciona ideas de metodologías más complejas si quieres llevar tu análisis a un nivel superior.","
+• Propuesta de un ""modelo de predicción de crimen impulsado por IA"" para seguridad en transporte urbano. MUY RELEVANTE como ejemplo de un enfoque moderno y potencial para tu proyecto.
+• Uso de GIS y Estadísticas Espaciales (ST-Cokriging). Confirma la relevancia de tus análisis espaciales (Moran's I, LISA) y sugiere técnicas más avanzadas (Cokriging es para interpolar valores espacialmente, ST implica espacio-tiempo).
+• Uso de Machine learning y AI para predicción de crimen. Abre la puerta a modelos más allá de series temporales clásicas o regresión si el tiempo/datos lo permiten.
+• Menciona el uso de datos históricos de crimen y transporte (afluencia) como base. Valida tu enfoque en la integración de estas dos fuentes clave.",,,,Not started,
+F1-98,,No leido,No,"
+• Regional Crime Data Analysis and Insights Using Fb Prophet (Pakhmode et al., 2024)
+• ",,,,"Este artículo académico presenta un estudio que utiliza el modelo Prophet de Facebook para analizar datos de crimen regional en la India. Es una fuente altamente relevante como ejemplo práctico de cómo aplicar Prophet a datos de criminalidad, lo cual es uno de los modelos predictivos que estás considerando para el robo en el Metro. El estudio podría proporcionar ideas sobre la preparación de datos para Prophet, la interpretación de resultados y cómo visualizar pronósticos de crimen. La mención de identificar hotspots también se relaciona con tu análisis espacial.","
+• Aplicación del modelo Prophet de Facebook para el análisis de datos de crimen regional. MUY RELEVANTE ya que Prophet es uno de los modelos predictivos que estás considerando para el robo en el Metro. Proporciona un ejemplo de cómo aplicar este modelo a datos de criminalidad.
+• Análisis y insights sobre datos de crimen regional (en la India). Sirve como un caso de estudio y fuente de posibles enfoques para visualizar y analizar datos de crimen.
+• Mención de determinar hotspots de crimen. Relevante para tu análisis espacial.",,,"https://www.researchgate.net/publication/380706063_Regional_Crime_Data_Analysis_and_Insights_Using_Fb_Prophet#:~:text=determining%20the%20hotspots%20of%20crime,across%20India%20by%20using%20the",Not started,
+F1-100,,No leido,No,"IMPORTANTE: Indice Gini por municipio 2020 (junto con 2010, 2015)",,,,,,,,https://www.coneval.org.mx/Medicion/Paginas/Cohesion_Social.aspx,Not started,
